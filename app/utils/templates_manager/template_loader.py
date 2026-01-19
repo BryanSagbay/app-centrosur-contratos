@@ -67,7 +67,7 @@ class TemplateLoader:
             'anio': 'anio'
         }
         
-        if isinstance(template, load_workbook):
+        if isinstance(template, Workbook):
             # Llenar Excel - todas las hojas
             for sheet in template.worksheets:
                 for placeholder, key in mapping.items():
@@ -98,7 +98,7 @@ class TemplateLoader:
             raise ValueError("Unsupported template type")
 
     def save_filled_template(self, filled_template, output_path):
-        if isinstance(filled_template, load_workbook):
+        if isinstance(filled_template, Workbook):
             filled_template.save(output_path)
         elif isinstance(filled_template, Document):
             filled_template.save(output_path)
