@@ -21,21 +21,28 @@ class TemplateLoader:
 
     def fill_template(self, template, data):
         if isinstance(template, load_workbook):
-            # Llenar Excel
-            sheet = template.active
-            for key, value in data.items():
-                # Asumir que hay placeholders como {{name}}, {{cedula}}
-                for row in sheet.iter_rows():
-                    for cell in row:
-                        if cell.value and isinstance(cell.value, str):
-                            cell.value = cell.value.replace('{{' + key + '}}', str(value))
+            # Llenar Excel - todas las hojas
+            for sheet in template.worksheets:
+                for key, value in data.items():
+                    for row in sheet.iter_rows():
+                        for cell in row:
+                            if cell.value and isinstance(cell.value, str):
+                                cell.value = cell.value.replace('{{' + key + '}}', str(value))
             return template
         elif isinstance(template, Document):
-            # Llenar Word
+            # Llenar Word - párrafos principales
             for paragraph in template.paragraphs:
                 for key, value in data.items():
                     if '{{' + key + '}}' in paragraph.text:
                         paragraph.text = paragraph.text.replace('{{' + key + '}}', str(value))
+            # Llenar tablas
+            for table in template.tables:
+                for row in table.rows:
+                    for cell in row.cells:
+                        for paragraph in cell.paragraphs:
+                            for key, value in data.items():
+                                if '{{' + key + '}}' in paragraph.text:
+                                    paragraph.text = paragraph.text.replace('{{' + key + '}}', str(value))
             return template
         else:
             raise ValueError("Unsupported template type")

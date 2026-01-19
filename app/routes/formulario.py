@@ -11,27 +11,33 @@ def submit_form():
         # Obtener todos los datos del formulario
         data = {}
         for key in request.form:
-            data[key] = request.form[key]
+            if key != 'templates':
+                data[key] = request.form[key]
         
-        template_choice = data.get('template_choice')
-        if not template_choice:
-            return "Error: No se seleccionó plantilla"
+        selected_templates = request.form.getlist('templates')
+        if not selected_templates:
+            return "Error: No se seleccionaron plantillas"
         
-        # Lógica para llenar la plantilla seleccionada
+        # Lógica para llenar las plantillas seleccionadas
         template_loader = TemplateLoader()
-        template = template_loader.load_template(template_choice)
-        filled_template = template_loader.fill_template(template, data)
+        generated_files = []
         
-        # Guardar el documento lleno
-        output_dir = 'output'
-        if template_choice.endswith('.xlsx'):
-            output_dir = os.path.join(output_dir, 'excel')
-        elif template_choice.endswith('.docx'):
-            output_dir = os.path.join(output_dir, 'word')
-        os.makedirs(output_dir, exist_ok=True)
-        output_path = os.path.join(output_dir, f'filled_{template_choice}')
-        template_loader.save_filled_template(filled_template, output_path)
+        for template_path in selected_templates:
+            template = template_loader.load_template(template_path)
+            filled_template = template_loader.fill_template(template, data)
+            
+            # Guardar el documento lleno
+            output_base_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'output')
+            if template_path.startswith('excel/'):
+                output_dir = os.path.join(output_base_dir, 'excel')
+            elif template_path.startswith('word/'):
+                output_dir = os.path.join(output_base_dir, 'word')
+            os.makedirs(output_dir, exist_ok=True)
+            output_filename = f'filled_{os.path.basename(template_path)}'
+            output_path = os.path.join(output_dir, output_filename)
+            template_loader.save_filled_template(filled_template, output_path)
+            generated_files.append(output_path)
         
-        return f"Documento generado exitosamente: {output_path}"
+        return f"Documentos generados exitosamente: {', '.join(generated_files)}"
     except Exception as e:
-        return f"Error al generar documento: {str(e)}"
+        return f"Error al generar documentos: {str(e)}"

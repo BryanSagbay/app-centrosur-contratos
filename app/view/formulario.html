@@ -272,38 +272,34 @@
 
             <!-- DOCUMENTOS -->
             <div class="section">
-                <div class="section-title">Vistos Buenos / Áreas Responsables</div>
+                <div class="section-title">Seleccionar Plantillas a Generar</div>
                 <div class="checkbox-grid">
                     <label class="checkbox-item">
-                        <input type="checkbox" name="visto_bueno" value="analista_th">
+                        <input type="checkbox" name="templates" value="excel/ACTA ENTREGA CARNET DE IDENTIFICACIÓN CENTROSUR.xls">
                         <span>ACTA DE ENTREGA DEL CARNET CON DESCUENTO</span>
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="visto_bueno" value="trabajadora_social">
-                        <span>ACTA DE ENTREGA DEL CARNET SIN DESCUENTO</span>
-                    </label>
-                    <label class="checkbox-item">
-                        <input type="checkbox" name="visto_bueno" value="remuneraciones">
+                        <input type="checkbox" name="templates" value="excel/CONSTANCIA DE ENTREGA DE DOCUMENTOS.xlsx">
                         <span>CONSTANCIA DE ENTREGA DE DOCUMENTOS</span>
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="visto_bueno" value="seguros">
+                        <input type="checkbox" name="templates" value="excel/R-DTH-411.1 ACTA ENTREGA DESCRIPTIVO CARGO.xls">
                         <span>R-DTH-411.1 ACTA ENTREGA DESCRIPTIVO CARGO</span>
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="visto_bueno" value="seguridad">
+                        <input type="checkbox" name="templates" value="excel/R-DTH-552   AUTORIZACIÓN DE CAUCIÓN.xlsx">
                         <span>R-DTH-552 AUTORIZACIÓN DE CAUCIÓN</span>
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="visto_bueno" value="riesgo">
+                        <input type="checkbox" name="templates" value="excel/R-DTH-557.2 HOJA DE RUTA DE INDUCCIÓN GENÉRICA.xlsx">
                         <span>R-DTH-557.2 HOJA DE RUTA DE INDUCCIÓN GENÉRICA</span>
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="visto_bueno" value="coordinador_calidad">
+                        <input type="checkbox" name="templates" value="word/R-DTH-410.1 ACTA RECEPCIÓN REGLAMENTO INTERNO DE TRABAJO.docx">
                         <span>R-DTH-410.1 ACTA RECEPCIÓN REGLAMENTO INTERNO DE TRABAJO</span>
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="visto_bueno" value="coordinador_calidad">
+                        <input type="checkbox" id="selectAll" name="select_all">
                         <span>MARCAR TODOS</span>
                     </label>
                 </div>
@@ -353,6 +349,12 @@
 
         // Actualizar al cargar la página
         actualizarCamposFecha();
+
+        // Marcar todos los checkboxes
+        document.getElementById('selectAll').addEventListener('change', function() {
+            const checkboxes = document.querySelectorAll('input[name="templates"]');
+            checkboxes.forEach(cb => cb.checked = this.checked);
+        });
     </script>
 
 </body>
