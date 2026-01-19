@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 from jinja2 import FileSystemLoader
 import os
 
@@ -13,6 +13,10 @@ app.register_blueprint(formulario_bp)
 @app.route('/')
 def home():
     return render_template('formulario.html')
+
+@app.route('/output/<path:filename>')
+def download_file(filename):
+    return send_from_directory(os.path.join(app.root_path, '..', 'output'), filename)
 
 if __name__ == '__main__':
     app.run(debug=True)

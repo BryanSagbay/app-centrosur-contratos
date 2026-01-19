@@ -1,6 +1,7 @@
 from flask import Blueprint, request
 from utils.templates_manager.template_loader import TemplateLoader
 import os
+from docx2pdf import convert
 
 formulario_bp = Blueprint('formulario', __name__)
 
@@ -37,8 +38,23 @@ def submit_form():
             os.makedirs(output_dir, exist_ok=True)
             output_path = os.path.join(output_dir, output_filename)
             template_loader.save_filled_template(filled_template, output_path)
-            generated_files.append(output_path)
+            
+            # Convertir DOCX a PDF
+            if output_path.endswith('.docx'):
+                pdf_path = output_path.replace('.docx', '.pdf')
+                convert(output_path, pdf_path)
+                generated_files.append(pdf_path)
+            else:
+                generated_files.append(output_path)
         
-        return f"Documentos generados exitosamente: {', '.join(generated_files)}"
+        # Crear respuesta HTML con enlaces a los archivos generados
+        response_html = "<h2>Documentos generados exitosamente:</h2><ul>"
+        for file_path in generated_files:
+            file_name = os.path.basename(file_path)
+            # Asumiendo que el servidor sirve archivos desde /output
+            file_url = f"/output/{os.path.relpath(file_path, os.path.join(os.path.dirname(__file__), '..', '..', 'output'))}"
+            response_html += f'<li><a href="{file_url}" target="_blank">{file_name}</a></li>'
+        response_html += "</ul>"
+        return response_html
     except Exception as e:
         return f"Error al generar documentos: {str(e)}"
