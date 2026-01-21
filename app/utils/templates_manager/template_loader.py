@@ -1,5 +1,3 @@
-# Lógica para cargar y gestionar plantillas de Excel y Word
-
 from openpyxl import load_workbook, Workbook
 from openpyxl.styles import Alignment
 from openpyxl.cell.cell import MergedCell
