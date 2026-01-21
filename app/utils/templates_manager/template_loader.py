@@ -1,6 +1,8 @@
 # Lógica para cargar y gestionar plantillas de Excel y Word
 
 from openpyxl import load_workbook, Workbook
+from openpyxl.styles import Alignment
+from openpyxl.cell.cell import MergedCell
 from docx import Document
 import os
 import pandas as pd
@@ -75,7 +77,14 @@ class TemplateLoader:
                     for row in sheet.iter_rows():
                         for cell in row:
                             if cell.value and isinstance(cell.value, str):
-                                cell.value = cell.value.replace('{{' + placeholder + '}}', str(value))
+                                if '{{' + placeholder + '}}' in cell.value:
+                                    cell.value = cell.value.replace('{{' + placeholder + '}}', str(value))
+                                    # Habilitar ajuste de texto para evitar desbordamiento
+                                    if not isinstance(cell, MergedCell):
+                                        if cell.alignment is None:
+                                            cell.alignment = Alignment(wrap_text=True)
+                                        else:
+                                            cell.alignment = cell.alignment.copy(wrap_text=True)
             return template
         elif isinstance(template, Document):
             # Llenar Word - párrafos principales
