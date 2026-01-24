@@ -23,7 +23,7 @@
         <element kind="frame" uuid="f295f714-d575-4b75-b802-87a468caf45a" x="11" y="10" width="119" height="60">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
             <element kind="image" uuid="d3fed116-91ff-4c03-a18c-1da32fe16fad" x="3" y="9" width="113" height="43">
-                <expression><![CDATA["https://portalcs.centrosur.gob.ec/assets/imagenes/portalcs-bg.png"]]></expression>
+                <expression><![CDATA["/images/portalcs-bg.png"]]></expression>
             </element>
             <box>
                 <pen lineWidth="0.5"/>
