@@ -52,8 +52,8 @@
         </element>
     </title>
     <detail>
-        <band height="755" splitType="Stretch">
-            <element kind="frame" uuid="2aec8e8b-e73d-46eb-badf-94846e1f9abb" mode="Opaque" x="10" y="100" width="60" height="20" backcolor="#BFE1FF">
+        <band height="749" splitType="Stretch">
+            <element kind="frame" uuid="2aec8e8b-e73d-46eb-badf-94846e1f9abb" mode="Opaque" x="10" y="97" width="60" height="20" backcolor="#BFE1FF">
                 <element kind="frame" uuid="c62c8bf0-6228-427c-82c3-1d62fba1df58" mode="Opaque" x="0" y="20" width="60" height="40" backcolor="#FFFFFF">
                     <element kind="staticText" uuid="80381608-55d6-4ad2-809a-96994d8fcd9e" x="0" y="0" width="60" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                         <text><![CDATA[8h00 a 8h20]]></text>
@@ -69,7 +69,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="80686f72-4c2e-49e1-9e90-09b677719e84" mode="Opaque" x="70" y="100" width="78" height="20" backcolor="#BFE1FF">
+            <element kind="frame" uuid="80686f72-4c2e-49e1-9e90-09b677719e84" mode="Opaque" x="70" y="97" width="78" height="20" backcolor="#BFE1FF">
                 <element kind="frame" uuid="b976b313-5ca6-4796-9ecf-6f623d782e27" mode="Opaque" x="0" y="20" width="78" height="40" backcolor="#FFFFFF">
                     <element kind="staticText" uuid="ebd01f5e-50c6-4622-ac3b-b32d04cadaa8" x="0" y="0" width="78" height="40" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                         <text><![CDATA[SELECCIÓN]]></text>
@@ -85,7 +85,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="706e72bc-03e6-4ea5-91d6-2aadac6c3297" mode="Opaque" x="353" y="100" width="102" height="20" backcolor="#BFE1FF">
+            <element kind="frame" uuid="706e72bc-03e6-4ea5-91d6-2aadac6c3297" mode="Opaque" x="353" y="97" width="102" height="20" backcolor="#BFE1FF">
                 <element kind="frame" uuid="61526e33-05e4-4b3d-80ef-1000ef763c3f" mode="Opaque" x="0" y="20" width="102" height="40" backcolor="#FFFFFF">
                     <box>
                         <pen lineWidth="0.5"/>
@@ -98,7 +98,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="780c7195-cfc1-4dce-af53-e073a141d54c" mode="Opaque" x="455" y="100" width="90" height="20" backcolor="#BFE1FF">
+            <element kind="frame" uuid="780c7195-cfc1-4dce-af53-e073a141d54c" mode="Opaque" x="455" y="97" width="90" height="20" backcolor="#BFE1FF">
                 <element kind="frame" uuid="3269e979-b137-40c0-8de4-53eda739d0c8" mode="Opaque" x="0" y="20" width="90" height="40" backcolor="#FFFFFF">
                     <box>
                         <pen lineWidth="0.5"/>
@@ -111,7 +111,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="44adef13-ca69-494a-878f-8efb532f145e" mode="Opaque" x="10" y="160" width="60" height="21" backcolor="#FFFFFF">
+            <element kind="frame" uuid="44adef13-ca69-494a-878f-8efb532f145e" mode="Opaque" x="10" y="157" width="60" height="21" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="5c7d906e-76b7-4662-b701-26c6908f6041" x="0" y="0" width="60" height="21" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <text><![CDATA[8H20 a 8H50]]></text>
                 </element>
@@ -119,7 +119,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="b1aac5aa-a03c-4226-9982-f7429d592876" mode="Opaque" x="10" y="181" width="60" height="68" backcolor="#FFFFFF">
+            <element kind="frame" uuid="b1aac5aa-a03c-4226-9982-f7429d592876" mode="Opaque" x="10" y="178" width="60" height="68" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="6662b518-28ef-4bf7-883e-ee25e71770df" x="0" y="0" width="60" height="68" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <text><![CDATA[8H50 a 9H50]]></text>
                 </element>
@@ -127,7 +127,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="f00bb024-2b04-4f82-8c77-328437d7e651" mode="Opaque" x="10" y="249" width="60" height="29" backcolor="#FFFFFF">
+            <element kind="frame" uuid="f00bb024-2b04-4f82-8c77-328437d7e651" mode="Opaque" x="10" y="246" width="60" height="29" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="fc66e054-5eed-48fe-8964-5f0cf334a5d1" x="0" y="0" width="60" height="29" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <text><![CDATA[9H50 a 10H20]]></text>
                 </element>
@@ -141,7 +141,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="202cc45e-de72-4ae9-b23d-36569851f5aa" mode="Opaque" x="70" y="160" width="78" height="21" backcolor="#FFFFFF">
+            <element kind="frame" uuid="202cc45e-de72-4ae9-b23d-36569851f5aa" mode="Opaque" x="70" y="157" width="78" height="21" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="70914222-9574-4a11-a375-5e42824bd86d" x="0" y="0" width="78" height="21" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                     <text><![CDATA[TRABAJO SOCIAL]]></text>
                 </element>
@@ -149,17 +149,17 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="86759ef6-9c54-4eeb-9344-0c5fffed18ae" mode="Opaque" x="353" y="160" width="102" height="21" backcolor="#FFFFFF">
+            <element kind="frame" uuid="86759ef6-9c54-4eeb-9344-0c5fffed18ae" mode="Opaque" x="353" y="157" width="102" height="21" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="7821efab-3ca8-409f-ad9f-c58edde13bfe" mode="Opaque" x="455" y="160" width="90" height="21" backcolor="#FFFFFF">
+            <element kind="frame" uuid="7821efab-3ca8-409f-ad9f-c58edde13bfe" mode="Opaque" x="455" y="157" width="90" height="21" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="e4d815e1-6f23-4d27-b7dd-e848b19d6c4e" mode="Opaque" x="70" y="181" width="78" height="68" backcolor="#FFFFFF">
+            <element kind="frame" uuid="e4d815e1-6f23-4d27-b7dd-e848b19d6c4e" mode="Opaque" x="70" y="178" width="78" height="68" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="974254a4-c3a5-4865-a114-8a301f5d8bc6" x="0" y="0" width="78" height="68" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                     <text><![CDATA[REMUNERACIONES]]></text>
                 </element>
@@ -167,7 +167,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="000c8c6f-fb0a-4285-8d82-4924395959de" mode="Opaque" x="148" y="181" width="205" height="68" backcolor="#FFFFFF">
+            <element kind="frame" uuid="000c8c6f-fb0a-4285-8d82-4924395959de" mode="Opaque" x="148" y="178" width="205" height="68" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="57f52fd3-b1fe-4098-b1d1-3af3d0218eea" x="1" y="1" width="203" height="68" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                     <text><![CDATA[ - Fecha de pago del sueldo
  - Horario de almuerzo
@@ -181,7 +181,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="2f9442c8-c7a9-4fa6-a9a3-448300fe97a7" mode="Opaque" x="353" y="181" width="102" height="68" backcolor="#FFFFFF">
+            <element kind="frame" uuid="2f9442c8-c7a9-4fa6-a9a3-448300fe97a7" mode="Opaque" x="353" y="178" width="102" height="68" backcolor="#FFFFFF">
                 <element kind="textField" uuid="de7b8a4e-75d7-43d5-84df-3ef444de3bee" x="0" y="-21" width="102" height="21" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <expression><![CDATA[$P{trabajadora_social}]]></expression>
                 </element>
@@ -192,12 +192,12 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="7777ccda-f4a1-4f96-b3bc-5f63bf90ca5f" mode="Opaque" x="455" y="181" width="90" height="68" backcolor="#FFFFFF">
+            <element kind="frame" uuid="7777ccda-f4a1-4f96-b3bc-5f63bf90ca5f" mode="Opaque" x="455" y="178" width="90" height="68" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="6d5ce1f9-fd58-49bc-9c0e-ed8c111d1132" mode="Opaque" x="70" y="249" width="78" height="29" backcolor="#FFFFFF">
+            <element kind="frame" uuid="6d5ce1f9-fd58-49bc-9c0e-ed8c111d1132" mode="Opaque" x="70" y="246" width="78" height="29" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="af63c84b-1d8b-4bd0-be14-b7478d6b0b2f" x="0" y="0" width="78" height="29" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                     <text><![CDATA[SEGUROS]]></text>
                 </element>
@@ -205,7 +205,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="1c76fad5-ee9a-49dc-8414-590dc3980a22" mode="Opaque" x="148" y="249" width="205" height="29" backcolor="#FFFFFF">
+            <element kind="frame" uuid="1c76fad5-ee9a-49dc-8414-590dc3980a22" mode="Opaque" x="148" y="246" width="205" height="29" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="9875c5bd-a07f-46f8-a027-30ee94005488" x="1" y="0" width="203" height="29" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                     <text><![CDATA[ - Póliza de Vida, coberturas, exclusiones, reclamos y ㅤdocumentos básicos.
  - Seguro de Salud, coberturas, exclusiones, reclamos.]]></text>
@@ -214,7 +214,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="cb00884b-f7ae-45dd-a471-9aa5ea93294a" mode="Opaque" x="353" y="249" width="102" height="29" backcolor="#FFFFFF">
+            <element kind="frame" uuid="cb00884b-f7ae-45dd-a471-9aa5ea93294a" mode="Opaque" x="353" y="246" width="102" height="29" backcolor="#FFFFFF">
                 <element kind="textField" uuid="6fe333ed-2645-47dd-b939-6c21e1663abc" x="0" y="0" width="102" height="29" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <expression><![CDATA[$P{seguros}]]></expression>
                 </element>
@@ -222,12 +222,12 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="ff861a66-ca03-40be-ae64-139a0d600a04" mode="Opaque" x="455" y="249" width="90" height="29" backcolor="#FFFFFF">
+            <element kind="frame" uuid="ff861a66-ca03-40be-ae64-139a0d600a04" mode="Opaque" x="455" y="246" width="90" height="29" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="52b94954-81f3-46db-985b-011f8e2d8715" mode="Opaque" x="148" y="278" width="205" height="170" backcolor="#FFFFFF">
+            <element kind="frame" uuid="52b94954-81f3-46db-985b-011f8e2d8715" mode="Opaque" x="148" y="275" width="205" height="170" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="2f183e3b-bdda-4e4e-9fb1-faf9a2a07cb5" x="0" y="0" width="205" height="170" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                     <text><![CDATA[ - Objetivo de la Seguridad y Salud en el Trabajo.
  - Política de Seguridad y Salud en el Trabajo.
@@ -247,7 +247,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="b1d178a9-a15c-46f0-a47f-fdc6bf83250b" mode="Opaque" x="148" y="160" width="205" height="21" backcolor="#FFFFFF">
+            <element kind="frame" uuid="b1d178a9-a15c-46f0-a47f-fdc6bf83250b" mode="Opaque" x="148" y="157" width="205" height="21" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="705cea93-a70f-4b63-ad81-02b3f406e1d8" x="1" y="1" width="204" height="20" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                     <text><![CDATA[ - Beneficios
  - Permisos médicos y calamidades domésticas]]></text>
@@ -256,7 +256,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="ff3ef22e-e448-4c8f-bb08-aeff1a71f319" mode="Opaque" x="148" y="448" width="205" height="22" backcolor="#FFFFFF">
+            <element kind="frame" uuid="ff3ef22e-e448-4c8f-bb08-aeff1a71f319" mode="Opaque" x="148" y="445" width="205" height="22" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="78aba8fe-d9eb-4a0b-8f87-9f00277ce937" x="0" y="0" width="205" height="22" fontName="Arial" fontSize="8.0">
                     <text><![CDATA[ - Riesgo Eléctrico (aplica únicamente para cargos ㅤ ㅤtécnicos)]]></text>
                 </element>
@@ -264,7 +264,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="40677d2a-33ad-48f5-b5df-a441a8c8a599" mode="Opaque" x="70" y="278" width="78" height="192" backcolor="#FFFFFF">
+            <element kind="frame" uuid="40677d2a-33ad-48f5-b5df-a441a8c8a599" mode="Opaque" x="70" y="275" width="78" height="192" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="688b4276-ce6d-49fa-a31b-40f82a768c6c" x="0" y="0" width="78" height="192" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                     <text><![CDATA[SEGURIDAD EN EL TRABAJO]]></text>
                 </element>
@@ -272,13 +272,13 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="ee38680c-9062-4755-9cca-b9c8e13f1a2c" x="10" y="278" width="60" height="170" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="ee38680c-9062-4755-9cca-b9c8e13f1a2c" x="10" y="275" width="60" height="170" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[10H20 a 11H20]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="02c2a56f-1773-46ad-aab2-f7e3d4abbbf8" mode="Opaque" x="353" y="278" width="102" height="170" backcolor="#FFFFFF">
+            <element kind="frame" uuid="02c2a56f-1773-46ad-aab2-f7e3d4abbbf8" mode="Opaque" x="353" y="275" width="102" height="170" backcolor="#FFFFFF">
                 <element kind="textField" uuid="98230b8d-d24c-43bf-a497-ec55789523a7" x="0" y="0" width="102" height="170" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <expression><![CDATA[$P{seguridad}]]></expression>
                 </element>
@@ -286,7 +286,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="d6ffa3d5-c2a2-4a3f-a4c5-aa44a6822602" mode="Opaque" x="353" y="448" width="102" height="22" backcolor="#FFFFFF">
+            <element kind="frame" uuid="d6ffa3d5-c2a2-4a3f-a4c5-aa44a6822602" mode="Opaque" x="353" y="445" width="102" height="22" backcolor="#FFFFFF">
                 <element kind="textField" uuid="883d1ecc-e31d-4229-b003-49e726f6cd0f" x="0" y="0" width="102" height="22" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <expression><![CDATA[$P{riesgo}]]></expression>
                 </element>
@@ -294,17 +294,17 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="5e472618-d337-4f11-a649-3ae6683aeecd" mode="Opaque" x="455" y="278" width="90" height="170" backcolor="#FFFFFF">
+            <element kind="frame" uuid="5e472618-d337-4f11-a649-3ae6683aeecd" mode="Opaque" x="455" y="275" width="90" height="170" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="8b4a98cd-0900-4b30-a3c0-a36f62ba1279" mode="Opaque" x="455" y="448" width="90" height="22" backcolor="#FFFFFF">
+            <element kind="frame" uuid="8b4a98cd-0900-4b30-a3c0-a36f62ba1279" mode="Opaque" x="455" y="445" width="90" height="22" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="cf1f98f2-5378-4b15-924d-2ff709a09038" mode="Opaque" x="148" y="120" width="205" height="40" backcolor="#FFFFFF">
+            <element kind="frame" uuid="cf1f98f2-5378-4b15-924d-2ff709a09038" mode="Opaque" x="148" y="117" width="205" height="40" backcolor="#FFFFFF">
                 <element kind="staticText" uuid="2ac9cc03-244a-4a5b-ade8-62ae419130e9" x="0" y="0" width="205" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                     <text><![CDATA[ - Régimen Laboral  y tiempo de Contratación.
  - Dirección a la que pertenece y en que área va trabajar
@@ -315,32 +315,32 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="5a190378-dc82-4322-9c7d-2b5f887b04ca" mode="Opaque" x="148" y="100" width="205" height="20" backcolor="#BFE1FF" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="5a190378-dc82-4322-9c7d-2b5f887b04ca" mode="Opaque" x="148" y="97" width="205" height="20" backcolor="#BFE1FF" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Tema a Tratar]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="3e58e28a-3c7e-434d-a176-14d5a4165ff5" x="10" y="470" width="60" height="17" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="3e58e28a-3c7e-434d-a176-14d5a4165ff5" x="10" y="467" width="60" height="17" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[12H10 a 12H40]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="70c2613b-338f-479d-894b-8913fdf40d76" x="10" y="487" width="60" height="22" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="70c2613b-338f-479d-894b-8913fdf40d76" x="10" y="484" width="60" height="22" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[12H40 a 13H10]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="ac230fd8-0388-4343-823a-bc31b0fdda25" x="148" y="470" width="205" height="17" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="staticText" uuid="ac230fd8-0388-4343-823a-bc31b0fdda25" x="148" y="467" width="205" height="17" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[ - Sistema de Evaluación de Desempeño (ESOL)]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="00ce1df4-86e8-45ce-a73a-65ab47a46a0b" x="148" y="487" width="205" height="22" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="staticText" uuid="00ce1df4-86e8-45ce-a73a-65ab47a46a0b" x="148" y="484" width="205" height="22" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[ - Manual de Procesos y procedimientos (Lotus Notes)
  - Entrega del plan estratégico]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -348,25 +348,25 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="94c4e9df-09fc-4a82-853a-d6b8c4126738" x="70" y="470" width="78" height="39" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="94c4e9df-09fc-4a82-853a-d6b8c4126738" x="70" y="467" width="78" height="39" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[DEPARTAMENTO DE CALIDAD]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="54406aa2-457e-407b-bf64-6d4c98d310bf" x="10" y="509" width="60" height="60" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="54406aa2-457e-407b-bf64-6d4c98d310bf" x="10" y="506" width="60" height="60" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[13H10 a 14H10]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="512ea4cf-2475-40ed-b4af-e23bb14032aa" x="10" y="569" width="60" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="512ea4cf-2475-40ed-b4af-e23bb14032aa" x="10" y="566" width="60" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[14H30 a 15H30]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="01e25f32-d3e1-4c40-8fb1-586b52a73554" x="148" y="509" width="205" height="60" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="staticText" uuid="01e25f32-d3e1-4c40-8fb1-586b52a73554" x="148" y="506" width="205" height="60" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[ - Vigilancia de la Salud
  - Manipulación de Cargas
  - Ergonomía en la Oficina
@@ -378,31 +378,31 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="2cc22020-6db3-4839-b02d-c20fd125b0b2" x="70" y="509" width="78" height="60" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="2cc22020-6db3-4839-b02d-c20fd125b0b2" x="70" y="506" width="78" height="60" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[DEPARTAMENTO MÉDICO]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="dc01e74a-900f-4aa4-be7b-d1cc42a07e3c" x="70" y="569" width="78" height="40" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="dc01e74a-900f-4aa4-be7b-d1cc42a07e3c" x="70" y="566" width="78" height="40" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[DIRECCIÓN DE TECNOLOGÍA DE LA INFORMACIÓN Y COMUNICACIÓN]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="4d60c443-9cfe-464e-8655-dcf3682101ca" x="70" y="609" width="78" height="71" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="4d60c443-9cfe-464e-8655-dcf3682101ca" x="70" y="606" width="78" height="71" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[DIRECCIÓN DE DISTRIBUCIÒN]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="8a6888db-9371-4ea0-984d-22b6ae3d42f1" x="10" y="609" width="60" height="71" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="8a6888db-9371-4ea0-984d-22b6ae3d42f1" x="10" y="606" width="60" height="71" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[15H30 a 16H30]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="81f01990-b3a3-4308-8f5d-453c425d0aa5" x="148" y="569" width="205" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="staticText" uuid="81f01990-b3a3-4308-8f5d-453c425d0aa5" x="148" y="566" width="205" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[ - Gestión documental (quipux), Lotus Notes.
  - GLPI Sistema de Incidentes
  - Mesa de ayuda de tecnología (ext. 5050)
@@ -412,7 +412,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="086b95b5-f2cc-44d1-b14b-2f84d77fdf1d" x="148" y="609" width="205" height="71" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="staticText" uuid="086b95b5-f2cc-44d1-b14b-2f84d77fdf1d" x="148" y="606" width="205" height="71" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[ - Mantenimiento correctivo (Reparaciones) en redes de ㅤDistribución
  - Realización de consignaciones internas tendientes a ㅤejecutar labores de expansión, mantenimiento ㅤpreventivo y correctivo mayor en el Sistema de ㅤDistribución.
  - Entrega de instructivos: I-DIDIS-104.1 e I-DIDIS-622.0]]></text>
@@ -422,7 +422,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="d4bf48d6-dfe2-42e8-9573-bb56972a960c" mode="Opaque" x="353" y="470" width="102" height="17" backcolor="#FFFFFF">
+            <element kind="frame" uuid="d4bf48d6-dfe2-42e8-9573-bb56972a960c" mode="Opaque" x="353" y="467" width="102" height="17" backcolor="#FFFFFF">
                 <element kind="textField" uuid="b6824185-5dc7-4cf7-a712-ab6e34f9ffb9" x="0" y="0" width="102" height="17" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <expression><![CDATA[$P{coordinador_calidad}]]></expression>
                     <box>
@@ -433,27 +433,27 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="2bf0f152-1f3d-4386-9e27-16950a002dd2" mode="Opaque" x="455" y="470" width="90" height="17" backcolor="#FFFFFF">
+            <element kind="frame" uuid="2bf0f152-1f3d-4386-9e27-16950a002dd2" mode="Opaque" x="455" y="467" width="90" height="17" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="ca306dff-433c-455e-9239-dcc10f91f38f" mode="Opaque" x="455" y="487" width="90" height="22" backcolor="#FFFFFF">
+            <element kind="frame" uuid="ca306dff-433c-455e-9239-dcc10f91f38f" mode="Opaque" x="455" y="484" width="90" height="22" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="9423d4c2-699e-4be1-8bc8-276126d7d079" mode="Opaque" x="353" y="509" width="102" height="60" backcolor="#FFFFFF">
+            <element kind="frame" uuid="9423d4c2-699e-4be1-8bc8-276126d7d079" mode="Opaque" x="353" y="506" width="102" height="60" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="a687d33d-6949-4a32-89bb-a31ebbab7168" mode="Opaque" x="455" y="509" width="90" height="60" backcolor="#FFFFFF">
+            <element kind="frame" uuid="a687d33d-6949-4a32-89bb-a31ebbab7168" mode="Opaque" x="455" y="506" width="90" height="60" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="9ae30ac6-5315-484a-9134-d1b8815bb377" mode="Opaque" x="353" y="569" width="102" height="40" backcolor="#FFFFFF">
+            <element kind="frame" uuid="9ae30ac6-5315-484a-9134-d1b8815bb377" mode="Opaque" x="353" y="566" width="102" height="40" backcolor="#FFFFFF">
                 <element kind="textField" uuid="10b02399-b86b-4109-83d2-4455cf3b1cdd" x="0" y="0" width="102" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <expression><![CDATA[$P{tecnologia}]]></expression>
                 </element>
@@ -461,12 +461,12 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="4a704047-c926-4406-b8f3-a5e3b74554e4" mode="Opaque" x="455" y="569" width="90" height="40" backcolor="#FFFFFF">
+            <element kind="frame" uuid="4a704047-c926-4406-b8f3-a5e3b74554e4" mode="Opaque" x="455" y="566" width="90" height="40" backcolor="#FFFFFF">
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="46c1f951-f92f-4d40-9b5c-eaa89b78b36e" mode="Opaque" x="353" y="609" width="102" height="71" backcolor="#FFFFFF">
+            <element kind="frame" uuid="46c1f951-f92f-4d40-9b5c-eaa89b78b36e" mode="Opaque" x="353" y="606" width="102" height="71" backcolor="#FFFFFF">
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <element kind="textField" uuid="a07b6de0-234c-4e02-9828-bd6ef313cc21" x="0" y="0" width="102" height="71" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <expression><![CDATA[$P{distribucion}]]></expression>
@@ -547,7 +547,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="5b481dd0-1352-4887-b0ff-003f0be6d606" mode="Opaque" x="10" y="80" width="50" height="14" backcolor="#BFE1FF">
+            <element kind="frame" uuid="5b481dd0-1352-4887-b0ff-003f0be6d606" mode="Opaque" x="10" y="77" width="50" height="14" backcolor="#BFE1FF">
                 <element kind="staticText" uuid="6e4df2ad-34db-4bf9-bd4e-c1cf206932d8" x="0" y="0" width="50" height="14" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <text><![CDATA[OBJETIVO:]]></text>
                 </element>
@@ -555,13 +555,13 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="839b4bbe-e891-400d-a776-a63e7f0081ed" x="60" y="80" width="485" height="14" fontName="Juan DiegoArial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="839b4bbe-e891-400d-a776-a63e7f0081ed" x="60" y="77" width="485" height="14" fontName="Juan DiegoArial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Brindar toda la información necesaria de la Empresa que se considera relevante para el conocimiento  del nuevo trabajador. ]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="00c4e212-7c40-4b7c-9781-0c825debd7a1" x="10" y="685" width="536" height="65">
+            <element kind="frame" uuid="00c4e212-7c40-4b7c-9781-0c825debd7a1" x="10" y="682" width="536" height="65">
                 <element kind="textField" uuid="d2641442-959c-4005-8e24-f2736ead1bc0" x="5" y="5" width="524" height="23" fontName="Arial" fontSize="8.0">
                     <expression><![CDATA["Certifico que he concluído satisfactoriamente todo el proceso de inducción genérica.  Dicho proceso se ha realizado en la ciudad de"+ $P{ciudad_colaborador} +", el "+ $P{dia}+ " de " + $P{mes} +" de "+ $P{anio} +"."]]></expression>
                 </element>
@@ -585,16 +585,16 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="016734fb-73f8-496a-a3c9-bdda43d2b4ae" mode="Opaque" x="455" y="609" width="90" height="71" backcolor="#FFFFFF">
+            <element kind="frame" uuid="016734fb-73f8-496a-a3c9-bdda43d2b4ae" mode="Opaque" x="455" y="606" width="90" height="71" backcolor="#FFFFFF">
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="textField" uuid="10f8d23a-7440-4f66-be74-6698bb3c1e3d" x="353" y="120" width="102" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="textField" uuid="10f8d23a-7440-4f66-be74-6698bb3c1e3d" x="353" y="117" width="102" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                 <expression><![CDATA[$P{analista_th}]]></expression>
             </element>
-            <element kind="frame" uuid="84802b78-a0e4-446f-a968-5912b2b0233a" mode="Opaque" x="353" y="487" width="102" height="22" backcolor="#FFFFFF">
+            <element kind="frame" uuid="84802b78-a0e4-446f-a968-5912b2b0233a" mode="Opaque" x="353" y="484" width="102" height="22" backcolor="#FFFFFF">
                 <element kind="textField" uuid="b47e9098-19c2-40ef-bfc3-d1417c26c61c" x="0" y="0" width="102" height="22" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
                     <expression><![CDATA[$P{ingeniero_calidad}]]></expression>
                     <box>
