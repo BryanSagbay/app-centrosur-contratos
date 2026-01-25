@@ -64,7 +64,7 @@
             <element kind="staticText" uuid="7a3eb934-8ab0-473f-8b12-ef389e7ce391" x="70" y="116" width="14" height="14" fontName="Arial">
                 <text><![CDATA[CI.]]></text>
             </element>
-            <element kind="textField" uuid="375b5ea3-8e36-4a53-b7e3-b4bc158ec54d" x="104" y="102" width="120" height="14" fontName="Arial">
+            <element kind="textField" uuid="375b5ea3-8e36-4a53-b7e3-b4bc158ec54d" x="104" y="102" width="320" height="14" fontName="Arial">
                 <expression><![CDATA[$P{colaborador}]]></expression>
             </element>
             <element kind="textField" uuid="9d008e57-fc5a-44f6-a5be-f61f3cd863f2" x="84" y="116" width="70" height="14" fontName="Arial">

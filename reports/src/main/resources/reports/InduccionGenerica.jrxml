@@ -497,12 +497,12 @@
             </element>
             <element kind="frame" uuid="b128f48c-387a-4bea-89bd-11315949ca67" positionType="Float" stretchType="ContainerHeight" x="10" y="611" width="550" height="63">
                 <element kind="textField" uuid="b126aed6-fda8-4b07-b44a-2af8f82475b1" positionType="Float" stretchType="ContainerHeight" x="9" y="3" width="531" height="20" fontName="Arial" fontSize="7.0" hTextAlign="Justified" vTextAlign="Middle">
-                    <expression><![CDATA["Certifico que he concluído satisfactoriamente todo el proceso de inducción genérica.  Dicho proceso se ha realizado en la ciudad de"+ $P{ciudad_colaborador} +", el "+ $P{dia}+ " de " + $P{mes} +" de "+ $P{anio} +"."]]></expression>
+                    <expression><![CDATA["Certifico que he concluído satisfactoriamente todo el proceso de inducción genérica. Dicho proceso se ha realizado en la ciudad de "+ $P{ciudad_colaborador} +", el "+ $P{dia}+ " de " + $P{mes} +" de "+ $P{anio} +"."]]></expression>
                 </element>
-                <element kind="textField" uuid="a27bb0ea-997c-4905-8ac6-69dc9644e0aa" x="9" y="38" width="111" height="11" fontName="Arial" fontSize="7.0" vTextAlign="Middle">
+                <element kind="textField" uuid="a27bb0ea-997c-4905-8ac6-69dc9644e0aa" x="9" y="38" width="311" height="11" fontName="Arial" fontSize="7.0" vTextAlign="Middle">
                     <expression><![CDATA["Nombre: "+$P{colaborador}]]></expression>
                 </element>
-                <element kind="textField" uuid="212e661f-d81e-40b6-b76e-a7641b5827d4" x="9" y="49" width="111" height="11" fontName="Arial" fontSize="7.0" vTextAlign="Middle">
+                <element kind="textField" uuid="212e661f-d81e-40b6-b76e-a7641b5827d4" x="9" y="49" width="311" height="11" fontName="Arial" fontSize="7.0" vTextAlign="Middle">
                     <expression><![CDATA["CI: "+$P{cedula}]]></expression>
                 </element>
                 <element kind="staticText" uuid="262764db-b371-43aa-876e-e9f9d4404064" x="9" y="27" width="59" height="10" fontName="Arial" fontSize="7.0" vTextAlign="Middle">

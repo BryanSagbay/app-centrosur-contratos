@@ -55,7 +55,7 @@
             <expression><![CDATA[$P{direccion}]]></expression>
         </element>
         <element kind="staticText" uuid="63116cc4-fd09-482a-b1b8-425c9b9df563" x="38" y="34" width="60" height="20" forecolor="#13702A" fontName="Arial">
-            <text><![CDATA[DIRECCIÓN:]]></text>
+            <text><![CDATA[DIRECCIÓN: ]]></text>
             <box>
                 <pen lineColor="#0A8228"/>
             </box>
