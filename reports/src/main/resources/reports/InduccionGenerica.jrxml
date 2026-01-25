@@ -52,7 +52,7 @@
         </element>
     </title>
     <detail>
-        <band height="759" splitType="Stretch">
+        <band height="755" splitType="Stretch">
             <element kind="frame" uuid="2aec8e8b-e73d-46eb-badf-94846e1f9abb" mode="Opaque" x="10" y="100" width="60" height="20" backcolor="#BFE1FF">
                 <element kind="frame" uuid="c62c8bf0-6228-427c-82c3-1d62fba1df58" mode="Opaque" x="0" y="20" width="60" height="40" backcolor="#FFFFFF">
                     <element kind="staticText" uuid="80381608-55d6-4ad2-809a-96994d8fcd9e" x="0" y="0" width="60" height="40" fontName="Arial" fontSize="8.0" hTextAlign="Center" vTextAlign="Middle">
@@ -561,7 +561,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="frame" uuid="00c4e212-7c40-4b7c-9781-0c825debd7a1" x="10" y="689" width="536" height="65">
+            <element kind="frame" uuid="00c4e212-7c40-4b7c-9781-0c825debd7a1" x="10" y="685" width="536" height="65">
                 <element kind="textField" uuid="d2641442-959c-4005-8e24-f2736ead1bc0" x="5" y="5" width="524" height="23" fontName="Arial" fontSize="8.0">
                     <expression><![CDATA["Certifico que he concluído satisfactoriamente todo el proceso de inducción genérica.  Dicho proceso se ha realizado en la ciudad de"+ $P{ciudad_colaborador} +", el "+ $P{dia}+ " de " + $P{mes} +" de "+ $P{anio} +"."]]></expression>
                 </element>
