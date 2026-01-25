@@ -634,7 +634,7 @@ public class Formulario extends JFrame {
         params.put("dia", txtDia.getText().trim());
         params.put("mes", txtMes.getText().trim());
         params.put("anio", txtAnio.getText().trim());
-        params.put("cuidad_colaborador", txtCiudad.getText().trim());
+        params.put("ciudad_colaborador", txtCiudad.getText().trim());
         params.put("colaborador_nombres", txtNombres.getText().trim());
         params.put("colaborador_apellidos", txtApellidos.getText().trim());
         params.put("cargo", txtCargo.getText().trim());
