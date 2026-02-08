@@ -798,13 +798,13 @@
             <element kind="textField" uuid="2f8f9ce0-6d4e-4aa9-9003-0f63612a57bf" x="10" y="624" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
                 <expression><![CDATA["EXPEDIENTE REVISADO POR: Analista de certificación y control"]]></expression>
             </element>
-            <element kind="staticText" uuid="cc707dc5-1aff-4e2d-862c-9681bbe1e0ed" x="10" y="657" width="200" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Bottom">
+            <element kind="staticText" uuid="cc707dc5-1aff-4e2d-862c-9681bbe1e0ed" x="10" y="656" width="200" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Bottom">
                 <text><![CDATA[Firma: ________________________]]></text>
             </element>
         </band>
     </detail>
     <pageFooter height="32" splitType="Stretch">
-        <element kind="staticText" uuid="1303cd6f-7a9e-4fa4-a46e-cdb494f4ce3e" x="120" y="6" width="320" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+        <element kind="staticText" uuid="1303cd6f-7a9e-4fa4-a46e-cdb494f4ce3e" x="120" y="6" width="320" height="20" forecolor="#3D3D3D" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
             <text><![CDATA[Sistema de Gestión de Certificación de Personas]]></text>
         </element>
     </pageFooter>
