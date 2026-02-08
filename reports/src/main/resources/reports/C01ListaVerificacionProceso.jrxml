@@ -212,7 +212,7 @@
                     <pen lineWidth="0.5" lineColor="#030303"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="3372d43f-dc34-41ec-8afa-d248cdfb58a6" x="10" y="140" width="40" height="20" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="3372d43f-dc34-41ec-8afa-d248cdfb58a6" x="10" y="140" width="40" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[1)]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
@@ -220,6 +220,55 @@
             </element>
             <element kind="staticText" uuid="44357925-d60b-4456-a994-7ff04661d6b3" x="50" y="140" width="320" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Lista de verificación del proceso de examinación CSTH- C01]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="19e13b01-e56d-4c8e-9b42-214328bc4bd5" x="10" y="160" width="40" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[2)]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="df60e0a5-9878-4fa4-b7bc-7a184d5896ff" x="50" y="160" width="320" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[  Solicitud para la certificación de personas CSTH-C02 debidamente llena y
+  firmada]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="6a5632ae-841d-4b8d-aa87-c86d2aaab366" x="370" y="140" width="36" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="896cbb4d-6282-4db9-8c41-c0f3e5282cd2" x="370" y="160" width="36" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="cf6d130b-394a-4e74-b6ba-3b73561c9e11" x="406" y="140" width="69" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="3ccd9bd4-d65e-491b-bfba-9cbcd6e89789" x="475" y="140" width="69" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="0605184b-593d-4158-9d1c-0d3fc1583938" x="406" y="160" width="69" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="a9336179-f1a8-4d95-aaa2-73990cee5828" x="475" y="160" width="69" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
