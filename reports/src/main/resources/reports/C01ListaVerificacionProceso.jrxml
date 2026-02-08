@@ -219,8 +219,8 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="44357925-d60b-4456-a994-7ff04661d6b3" x="50" y="133" width="334" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Lista de verificación del proceso de examinación CSTH- C01]]></text>
+            <element kind="staticText" uuid="44357925-d60b-4456-a994-7ff04661d6b3" x="50" y="133" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[  Lista de verificación del proceso de examinación CSTH- C01.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -233,7 +233,7 @@
             </element>
             <element kind="staticText" uuid="df60e0a5-9878-4fa4-b7bc-7a184d5896ff" x="50" y="153" width="334" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Solicitud para la certificación de personas CSTH-C02 debidamente llena y
-  firmada]]></text>
+  firmada.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -281,7 +281,7 @@
                 </box>
             </element>
             <element kind="staticText" uuid="48645bd1-ecf1-4e51-abe0-396a04d53ae1" x="50" y="183" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Copia de los documentos que respalden la solicitud (pre-requisitos)]]></text>
+                <text><![CDATA[  Copia de los documentos que respalden la solicitud (pre-requisitos).]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -294,7 +294,7 @@
             </element>
             <element kind="staticText" uuid="488ca229-0e80-43d6-a40c-e02285923055" x="50" y="203" width="334" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Evaluación diagnostica de lecto-escritura y calculo básico CSTH-C03 (de ser
-  el caso)]]></text>
+  el caso).]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -342,7 +342,7 @@
                 </box>
             </element>
             <element kind="staticText" uuid="943862c3-d7dd-43e5-aac0-82daab1de677" x="50" y="233" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Aceptación o no aceptación de la solicitud para la certificación CSTH-C04]]></text>
+                <text><![CDATA[  Aceptación o no aceptación de la solicitud para la certificación CSTH-C04.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -354,7 +354,7 @@
                 </box>
             </element>
             <element kind="staticText" uuid="b5e2ca8d-9214-4f4c-871b-bcb1ea11896f" x="50" y="253" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Código de Ética y Conducta para el Examinado CSTH-C05, original]]></text>
+                <text><![CDATA[  Código de Ética y Conducta para el Examinado CSTH-C05, original.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -403,7 +403,7 @@
             </element>
             <element kind="staticText" uuid="2cb32cd1-4934-4e28-91b3-5b10b8fa25a3" x="50" y="273" width="334" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Declaración de Imparcialidad en la Examinación de Competencia CSTH-C06,
-  original]]></text>
+  original.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -416,7 +416,7 @@
             </element>
             <element kind="staticText" uuid="0a662943-52ed-418e-ba83-ce7ef8b77b90" x="50" y="303" width="334" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Código de ética y acuerdo de confidencialidad y responsabilidad de la
-  información CSTH-T04 (solo el examinador)]]></text>
+  información CSTH-T04 (solo el examinador).]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -464,7 +464,7 @@
                 </box>
             </element>
             <element kind="staticText" uuid="914e322d-63ae-4fb7-9711-b02089a646fb" x="50" y="333" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Lista de verificación del lugar de examinación CSTH-C07,]]></text>
+                <text><![CDATA[  Lista de verificación del lugar de examinación CSTH-C07.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -476,7 +476,7 @@
                 </box>
             </element>
             <element kind="staticText" uuid="dd2065a8-cd88-4dc9-b1b6-4270bd2cdfc5" x="50" y="353" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Lista de asistencia a la examinación CSTH-C08]]></text>
+                <text><![CDATA[  Lista de asistencia a la examinación CSTH-C08.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -525,7 +525,7 @@
             </element>
             <element kind="staticText" uuid="b37eb317-ac2b-4ad4-854a-94d9a66933bc" x="50" y="373" width="334" height="32" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Acuerdo de cumplimiento con lineamientos para personas certificadas
-  CSTH-C09]]></text>
+  CSTH-C09.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -538,7 +538,7 @@
             </element>
             <element kind="staticText" uuid="937b2bd7-b32c-4d5e-a048-4fc93ca6d401" x="50" y="405" width="334" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Registro de personas descargado del Sistema para el proceso de certificación
-  de cualificaciones]]></text>
+  de cualificaciones.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -587,7 +587,7 @@
             </element>
             <element kind="staticText" uuid="61da7de1-6d38-4a04-b795-02edf1c22cc8" x="50" y="435" width="334" height="28" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Examinación de la competencia examen teórico, examen práctico, registro de
-  resultados y preguntas -  respuestas de la examinación por competencias]]></text>
+  resultados y preguntas -  respuestas de la examinación por competencias.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -599,7 +599,7 @@
                 </box>
             </element>
             <element kind="staticText" uuid="dbcb5290-79d7-40cc-ad4c-b9985cf62cea" x="50" y="463" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Notificación de certificación o no certificación CSTH-C10]]></text>
+                <text><![CDATA[  Notificación de certificación o no certificación CSTH-C10.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -647,7 +647,7 @@
                 </box>
             </element>
             <element kind="staticText" uuid="5ddd3cb7-1931-4cf3-8ccb-846890f420be" x="50" y="483" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Evaluación de desempeño al examinador CSTH-C11]]></text>
+                <text><![CDATA[  Evaluación de desempeño al examinador CSTH-C11.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -701,103 +701,104 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="6eba3b51-7340-4638-8932-3e4cb4f693af" x="10" y="533" width="40" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="6eba3b51-7340-4638-8932-3e4cb4f693af" x="10" y="533" width="40" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[18)]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="45ec3b43-bed5-4065-8ebd-ed3360078cef" x="50" y="533" width="334" height="17" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Notificación de suspensión o retiro de la certificación de ser el caso CSTH-C14]]></text>
+            <element kind="staticText" uuid="45ec3b43-bed5-4065-8ebd-ed3360078cef" x="50" y="533" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[  Notificación de suspensión o retiro de la certificación de ser el caso CSTH-C14.]]></text>
+                <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="dce6bc8e-264b-40f8-a57b-41aaf14554ec" x="384" y="533" width="36" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="dce6bc8e-264b-40f8-a57b-41aaf14554ec" x="384" y="533" width="36" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="a2583aa8-86e6-409c-9295-f1bac18c9480" x="420" y="533" width="55" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="a2583aa8-86e6-409c-9295-f1bac18c9480" x="420" y="533" width="55" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="d6a4a4f5-e6b5-42eb-85b4-b1b14ebba06b" x="475" y="533" width="69" height="30" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="d6a4a4f5-e6b5-42eb-85b4-b1b14ebba06b" x="475" y="533" width="69" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="6205d873-8368-4176-b0b3-29a13c3783d2" x="10" y="563" width="40" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="6205d873-8368-4176-b0b3-29a13c3783d2" x="10" y="553" width="40" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[19)]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="b00ebc3d-0e49-403f-80d9-64bc73eadb3b" x="50" y="563" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Certificado de competencia laboral]]></text>
+            <element kind="staticText" uuid="b00ebc3d-0e49-403f-80d9-64bc73eadb3b" x="50" y="553" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[  Certificado de competencia laboral.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="3ab570b4-3a97-40d7-8d81-d1809b484d52" x="10" y="583" width="40" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="3ab570b4-3a97-40d7-8d81-d1809b484d52" x="10" y="573" width="40" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[20)]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="388189e3-2d3d-4cbb-96dd-68da3bc24700" x="50" y="583" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <text><![CDATA[  Formulario para quejas y apelaciones CSTH-C15]]></text>
+            <element kind="staticText" uuid="388189e3-2d3d-4cbb-96dd-68da3bc24700" x="50" y="573" width="334" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[  Formulario para quejas y apelaciones CSTH-C15.]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="94706e47-556b-41df-ae6f-2582de61ebdb" x="384" y="563" width="36" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="94706e47-556b-41df-ae6f-2582de61ebdb" x="384" y="553" width="36" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="875002ca-2dc7-48fa-8b29-55121d52f331" x="384" y="583" width="36" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="875002ca-2dc7-48fa-8b29-55121d52f331" x="384" y="573" width="36" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="ae48def0-fb8e-4ecc-82b9-3a11a1d8e52b" x="420" y="563" width="55" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="ae48def0-fb8e-4ecc-82b9-3a11a1d8e52b" x="420" y="553" width="55" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="f00f3d79-a238-4342-9a6a-ccce78f82ff6" x="475" y="563" width="69" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="f00f3d79-a238-4342-9a6a-ccce78f82ff6" x="475" y="553" width="69" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="81d1668d-8d6d-4beb-8f2c-daabc2eca2e6" x="420" y="583" width="55" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="81d1668d-8d6d-4beb-8f2c-daabc2eca2e6" x="420" y="573" width="55" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="a7d0b7b3-be8e-4266-8117-d6f675926daa" x="475" y="583" width="69" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="a7d0b7b3-be8e-4266-8117-d6f675926daa" x="475" y="573" width="69" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="textField" uuid="eaf7c139-ead4-437e-b8c1-8468e665ff56" x="10" y="616" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
+            <element kind="textField" uuid="eaf7c139-ead4-437e-b8c1-8468e665ff56" x="10" y="610" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
                 <expression><![CDATA["ULTIMA FECHA DE VERIFICACIÓN:"+$P{fecha_ultima_revision}]]></expression>
             </element>
-            <element kind="textField" uuid="2f8f9ce0-6d4e-4aa9-9003-0f63612a57bf" x="10" y="630" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
+            <element kind="textField" uuid="2f8f9ce0-6d4e-4aa9-9003-0f63612a57bf" x="10" y="624" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
                 <expression><![CDATA["EXPEDIENTE REVISADO POR: Analista de certificación y control"]]></expression>
             </element>
-            <element kind="staticText" uuid="cc707dc5-1aff-4e2d-862c-9681bbe1e0ed" x="10" y="660" width="200" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Bottom">
+            <element kind="staticText" uuid="cc707dc5-1aff-4e2d-862c-9681bbe1e0ed" x="10" y="657" width="200" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Bottom">
                 <text><![CDATA[Firma: ________________________]]></text>
             </element>
         </band>
