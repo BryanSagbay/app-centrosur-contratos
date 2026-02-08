@@ -98,7 +98,7 @@
             </box>
         </element>
         <element kind="staticText" uuid="39294365-18b3-4eec-97af-477e669b42bf" x="450" y="63" width="94" height="14" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-            <text><![CDATA[  Página 1 de 2
+            <text><![CDATA[  Página 1 de 1
 
 ]]></text>
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -122,7 +122,7 @@
         </element>
     </title>
     <detail>
-        <band height="667" splitType="Stretch">
+        <band height="675" splitType="Stretch">
             <element kind="textField" uuid="3ede28e0-78c1-4d25-84b8-8e2e9b1e9573" x="121" y="6" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{colaborador}]]></expression>
                 <box>
@@ -792,11 +792,14 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="textField" uuid="eaf7c139-ead4-437e-b8c1-8468e665ff56" x="10" y="613" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
+            <element kind="textField" uuid="eaf7c139-ead4-437e-b8c1-8468e665ff56" x="10" y="616" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
                 <expression><![CDATA["ULTIMA FECHA DE VERIFICACIÓN:"+$P{fecha_ultima_revision}]]></expression>
             </element>
-            <element kind="textField" uuid="2f8f9ce0-6d4e-4aa9-9003-0f63612a57bf" x="10" y="632" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
+            <element kind="textField" uuid="2f8f9ce0-6d4e-4aa9-9003-0f63612a57bf" x="10" y="630" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
                 <expression><![CDATA["EXPEDIENTE REVISADO POR: Analista de certificación y control"]]></expression>
+            </element>
+            <element kind="staticText" uuid="cc707dc5-1aff-4e2d-862c-9681bbe1e0ed" x="10" y="660" width="200" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Bottom">
+                <text><![CDATA[Firma: ________________________]]></text>
             </element>
         </band>
     </detail>
