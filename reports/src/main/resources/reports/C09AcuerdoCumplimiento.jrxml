@@ -219,14 +219,11 @@ El OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., podrá tomar las acciones ju
             <element kind="staticText" uuid="9c53f47a-2e00-4583-8bc0-9bc684a42c93" x="10" y="150" width="534" height="30">
                 <text><![CDATA[El presente acuerdo compromete a la persona certificada a cumplirlo durante el período de vigencia de su certificación:]]></text>
             </element>
-            <element kind="staticText" uuid="320460b7-c983-4c2f-beb3-cc24604e42a1" x="20" y="180" width="20" height="20" fontName="Arial" hTextAlign="Right">
+            <element kind="staticText" uuid="320460b7-c983-4c2f-beb3-cc24604e42a1" x="30" y="180" width="20" height="20" fontName="Arial" hTextAlign="Right">
                 <text><![CDATA[1.  ]]></text>
             </element>
-            <element kind="staticText" uuid="d2c599a0-a080-4ef8-ae42-614938ea8d38" x="20" y="215" width="20" height="20" fontName="Arial" hTextAlign="Right">
+            <element kind="staticText" uuid="d2c599a0-a080-4ef8-ae42-614938ea8d38" x="30" y="214" width="20" height="12" fontName="Arial" hTextAlign="Right">
                 <text><![CDATA[2.  ]]></text>
-            </element>
-            <element kind="staticText" uuid="24c761af-11ec-4a7c-8acc-c086ff45b15e" x="20" y="298" width="20" height="20" fontName="Arial" hTextAlign="Right">
-                <text><![CDATA[4.  ]]></text>
             </element>
             <element kind="staticText" uuid="130e7bb0-6edc-4971-809a-22ca410ccc3f" x="20" y="380" width="20" height="20" hTextAlign="Right">
                 <text><![CDATA[6.]]></text>
@@ -246,8 +243,11 @@ El OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., podrá tomar las acciones ju
             <element kind="staticText" uuid="880517f6-3f16-4a21-a71b-4054fac4ba88" x="20" y="620" width="20" height="20" hTextAlign="Right">
                 <text><![CDATA[10.]]></text>
             </element>
-            <element kind="staticText" uuid="acacd5bf-0780-480c-bda4-f026753eb82d" x="20" y="250" width="20" height="20" fontName="Arial" hTextAlign="Right">
-                <text><![CDATA[3.]]></text>
+            <element kind="staticText" uuid="c9f5b737-8e39-4ef2-b346-72f6f6883909" x="30" y="249" width="20" height="12" fontName="Arial" hTextAlign="Right">
+                <text><![CDATA[3.  ]]></text>
+            </element>
+            <element kind="staticText" uuid="e3a95baf-7e72-4ea9-a4c8-fc30fb24fe4a" x="30" y="295" width="20" height="12" fontName="Arial" hTextAlign="Right">
+                <text><![CDATA[4.  ]]></text>
             </element>
         </band>
     </detail>
