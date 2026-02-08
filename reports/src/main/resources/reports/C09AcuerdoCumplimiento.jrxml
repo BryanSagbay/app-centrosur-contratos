@@ -184,7 +184,10 @@
             </element>
         </band>
     </detail>
-    <columnFooter height="45" splitType="Stretch"/>
-    <pageFooter height="54" splitType="Stretch"/>
-    <summary height="42" splitType="Stretch"/>
+    <columnFooter height="179" splitType="Stretch"/>
+    <pageFooter height="40" splitType="Stretch">
+        <element kind="staticText" uuid="1303cd6f-7a9e-4fa4-a46e-cdb494f4ce3e" x="120" y="10" width="320" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[Sistema de Gestión de Certificación de Personas]]></text>
+        </element>
+    </pageFooter>
 </jasperReport>
