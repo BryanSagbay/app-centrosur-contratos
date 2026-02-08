@@ -194,7 +194,7 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="51bbced3-de66-4263-ae1f-e45afb10082e" x="50" y="180" width="470" height="470" hTextAlign="Justified">
+            <element kind="staticText" uuid="51bbced3-de66-4263-ae1f-e45afb10082e" x="50" y="180" width="470" height="470" fontName="Arial" hTextAlign="Justified">
                 <text><![CDATA[El logotipo del OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., no puede ser usado bajo ningún concepto, ni en tarjetas de presentación de la persona certificada, ni en papelería, etc.
 
 No está permitido el uso del logotipo de la Subsecretaria de Cualificaciones Profesionales, o cualquier otra organización relacionada con la certificación.
@@ -218,6 +218,36 @@ El OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., podrá tomar las acciones ju
             </element>
             <element kind="staticText" uuid="9c53f47a-2e00-4583-8bc0-9bc684a42c93" x="10" y="150" width="534" height="30">
                 <text><![CDATA[El presente acuerdo compromete a la persona certificada a cumplirlo durante el período de vigencia de su certificación:]]></text>
+            </element>
+            <element kind="staticText" uuid="320460b7-c983-4c2f-beb3-cc24604e42a1" x="20" y="180" width="20" height="20" fontName="Arial" hTextAlign="Right">
+                <text><![CDATA[1.  ]]></text>
+            </element>
+            <element kind="staticText" uuid="d2c599a0-a080-4ef8-ae42-614938ea8d38" x="20" y="215" width="20" height="20" fontName="Arial" hTextAlign="Right">
+                <text><![CDATA[2.  ]]></text>
+            </element>
+            <element kind="staticText" uuid="24c761af-11ec-4a7c-8acc-c086ff45b15e" x="20" y="298" width="20" height="20" fontName="Arial" hTextAlign="Right">
+                <text><![CDATA[4.  ]]></text>
+            </element>
+            <element kind="staticText" uuid="130e7bb0-6edc-4971-809a-22ca410ccc3f" x="20" y="380" width="20" height="20" hTextAlign="Right">
+                <text><![CDATA[6.]]></text>
+            </element>
+            <element kind="staticText" uuid="2ef69cd6-ceae-4aba-a554-7246faac7e91" x="20" y="416" width="20" height="20" hTextAlign="Right">
+                <text><![CDATA[7.]]></text>
+            </element>
+            <element kind="staticText" uuid="d13e6f1b-2839-4fb0-b8c3-6275df6741a5" x="25" y="510" width="20" height="20" hTextAlign="Right">
+                <text><![CDATA[9.]]></text>
+            </element>
+            <element kind="staticText" uuid="ae7ea61f-0f95-488a-987b-c7814a074719" x="20" y="333" width="20" height="20" hTextAlign="Right">
+                <text><![CDATA[5.  ]]></text>
+            </element>
+            <element kind="staticText" uuid="3fdb070d-2a2c-4450-81f1-3b09f065526f" x="25" y="450" width="20" height="20" hTextAlign="Right">
+                <text><![CDATA[8.]]></text>
+            </element>
+            <element kind="staticText" uuid="880517f6-3f16-4a21-a71b-4054fac4ba88" x="20" y="620" width="20" height="20" hTextAlign="Right">
+                <text><![CDATA[10.]]></text>
+            </element>
+            <element kind="staticText" uuid="acacd5bf-0780-480c-bda4-f026753eb82d" x="20" y="250" width="20" height="20" fontName="Arial" hTextAlign="Right">
+                <text><![CDATA[3.]]></text>
             </element>
         </band>
     </detail>
