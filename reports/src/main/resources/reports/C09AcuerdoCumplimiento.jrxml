@@ -108,10 +108,81 @@
             </box>
         </element>
     </title>
-    <pageHeader height="35" splitType="Stretch"/>
-    <columnHeader height="61" splitType="Stretch"/>
     <detail>
-        <band height="125" splitType="Stretch"/>
+        <band height="130" splitType="Stretch">
+            <element kind="textField" uuid="38406050-435f-4d8d-87d6-687b46ea0710" x="170" y="10" width="130" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <expression><![CDATA[$P{colaborador}]]></expression>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="textField" uuid="1d3482fc-be4a-4f98-a23b-18bc881b5545" x="170" y="30" width="130" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <expression><![CDATA[$P{cedula}]]></expression>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="textField" uuid="afff35e7-039e-4b22-9f8a-d1df7d40a4e3" x="170" y="50" width="130" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <expression><![CDATA[$P{fecha}]]></expression>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="textField" uuid="c08eb66b-c4a9-4832-9061-9deaf41e0456" x="170" y="70" width="130" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <expression><![CDATA[$P{direccion}]]></expression>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="textField" uuid="43073218-ee54-428e-8097-39856a5a01a5" x="170" y="90" width="130" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <expression><![CDATA[$P{telefono}]]></expression>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="7ec25896-4d74-421a-bef6-37462c0e36b2" x="10" y="10" width="160" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[ Nombre de la persona a certificar:]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="e92cc734-e6de-49a2-a0cf-323537270419" x="10" y="30" width="160" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[ Cédula de Ciudadanía: ]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="cd3fd505-ef51-4b11-9a33-4fe678436159" x="10" y="90" width="160" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[ Teléfono:]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="359f96a9-da74-4fd7-9743-4e29c985ddda" x="10" y="50" width="160" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[ Fecha:]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="e004f334-3ea8-4274-bd59-982361c39e20" x="10" y="70" width="160" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[ Dirección: ]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="7e278ea2-b0e6-4948-a41e-772d297e37df" x="10" y="110" width="160" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[ Correo electrónico: ]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="textField" uuid="1361d881-28b3-486e-b9f5-836ca63802c8" x="170" y="110" width="130" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <expression><![CDATA[$P{correo}]]></expression>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+        </band>
     </detail>
     <columnFooter height="45" splitType="Stretch"/>
     <pageFooter height="54" splitType="Stretch"/>
