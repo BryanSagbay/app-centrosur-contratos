@@ -182,6 +182,48 @@
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
+            <element kind="staticText" uuid="f6f1376d-d348-4c66-9183-766bf64473a0" mode="Opaque" x="10" y="120" width="40" height="20" forecolor="#FFFFFF" backcolor="#4667C2" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[N°]]></text>
+                <box>
+                    <pen lineWidth="0.5" lineColor="#030303"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="123ea267-d707-4100-b228-319dc3d36ea8" mode="Opaque" x="50" y="120" width="320" height="20" forecolor="#FFFFFF" backcolor="#4667C2" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[REGISTROS]]></text>
+                <box>
+                    <pen lineWidth="0.5" lineColor="#030303"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="2e0abccb-fd32-4662-9e0a-72cd5d8aefdc" mode="Opaque" x="406" y="120" width="69" height="20" forecolor="#FFFFFF" backcolor="#4667C2" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[CUMPLE]]></text>
+                <box>
+                    <pen lineWidth="0.5" lineColor="#030303"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="777b48f4-af2a-4e6a-9748-191ff8307232" mode="Opaque" x="370" y="120" width="36" height="20" forecolor="#FFFFFF" backcolor="#4667C2" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[N/A]]></text>
+                <box>
+                    <pen lineWidth="0.5" lineColor="#030303"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="c03dae78-e55c-4474-b1b2-fe27d319c412" mode="Opaque" x="475" y="120" width="69" height="20" forecolor="#FFFFFF" backcolor="#4667C2" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[NO CUMPLE]]></text>
+                <box>
+                    <pen lineWidth="0.5" lineColor="#030303"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="3372d43f-dc34-41ec-8afa-d248cdfb58a6" x="10" y="140" width="40" height="20" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[1)]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="44357925-d60b-4456-a994-7ff04661d6b3" x="50" y="140" width="320" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
+                <text><![CDATA[  Lista de verificación del proceso de examinación CSTH- C01]]></text>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
         </band>
     </detail>
     <pageFooter height="32" splitType="Stretch">
