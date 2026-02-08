@@ -1,6 +1,9 @@
 <!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
 <jasperReport name="Blank_A4_1" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dfcb51fc-90d0-4310-a874-7bed6df14236">
-    <query language="sql"><![CDATA[]]></query>
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <dataset name="Dataset1" uuid="860895c9-c8d5-4f27-9557-ff24d9a00910">
+        <query language="sql"><![CDATA[]]></query>
+    </dataset>
     <parameter name="fecha_emision" class="java.lang.String"/>
     <parameter name="fecha_revision" class="java.lang.String"/>
     <parameter name="colaborador" class="java.lang.String"/>
@@ -9,6 +12,7 @@
     <parameter name="direccion" class="java.lang.String"/>
     <parameter name="telefono" class="java.lang.String"/>
     <parameter name="correo" class="java.lang.String"/>
+    <query language="sql"><![CDATA[]]></query>
     <background splitType="Stretch"/>
     <title height="95" splitType="Stretch">
         <element kind="image" uuid="c3186159-61a5-49bd-855c-24d55a1f996a" x="10" y="10" width="100" height="80" hImageAlign="Center" vImageAlign="Middle">
@@ -117,7 +121,7 @@
         </element>
     </title>
     <detail>
-        <band height="130" splitType="Stretch">
+        <band height="655" splitType="Stretch">
             <element kind="textField" uuid="38406050-435f-4d8d-87d6-687b46ea0710" x="170" y="10" width="374" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{colaborador}]]></expression>
                 <box>
@@ -131,7 +135,7 @@
                 </box>
             </element>
             <element kind="textField" uuid="afff35e7-039e-4b22-9f8a-d1df7d40a4e3" x="170" y="50" width="374" height="20" fontName="Arial" hTextAlign="Left" vTextAlign="Middle">
-                <expression><![CDATA[$P{fecha}]]></expression>
+                <expression><![CDATA[$P{fecha_entrega_documentos}]]></expression>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
@@ -190,11 +194,35 @@
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
+            <element kind="staticText" uuid="51bbced3-de66-4263-ae1f-e45afb10082e" x="50" y="180" width="470" height="470" hTextAlign="Justified">
+                <text><![CDATA[El logotipo del OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., no puede ser usado bajo ningún concepto, ni en tarjetas de presentación de la persona certificada, ni en papelería, etc.
+
+No está permitido el uso del logotipo de la Subsecretaria de Cualificaciones Profesionales, o cualquier otra organización relacionada con la certificación.
+
+El OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A. y la Subsecretaria de Cualificaciones Profesionales, no serán responsables de cualquier costo ocasionado por el mal uso de sus logotipos, certificados o marcas.
+
+Cuando se haga referencia a la certificación siempre debe apegarse estrictamente al alcance de la misma (al esquema del esquema del perfil con el cual fue certificado).
+
+No se pondrá en riesgo de perjudicar los nombres del OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A. y de la Subsecretaria de Cualificaciones Profesionales, a través de actos o hechos referentes al proceso de certificación.
+
+No se podrá usar el certificado o hacer referencia a la certificación en el caso de retiro o suspensión.
+
+En el caso de retiro o suspensión de la certificación o cambio del alcance, el certificado debe ser devuelto al OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A.
+
+La persona certificada tiene la obligación de notificar por escrito al OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., de manera inmediata cualquier aspecto que pueda afectar su capacidad de cumplir con los requisitos de competencia bajo los cuales fue certificado (accidentes, etc.).
+
+El usuario del Certificado (persona certificada) descarga y libera al OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., de toda responsabilidad administrativa, civil o penal, que se pudieren derivar del uso del mismo. El usuario declara además que es de su exclusiva responsabilidad el uso del Certificado, siendo el único responsable en la ejecución de las actividades que realice como resultado de la obtención del referido instrumento. De igual forma, el usuario, así como sus familiares, herederos o administradores, renuncian a instaurar cualquier tipo de demanda o acción legal similar contra el OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., originada en las actividades que trata la Certificación.
+
+El OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., podrá tomar las acciones jurídicas que sean pertinentes ante cualquier mal uso y no cumplimiento con lo establecido en este acuerdo.
+]]></text>
+            </element>
+            <element kind="staticText" uuid="9c53f47a-2e00-4583-8bc0-9bc684a42c93" x="10" y="150" width="534" height="30">
+                <text><![CDATA[El presente acuerdo compromete a la persona certificada a cumplirlo durante el período de vigencia de su certificación:]]></text>
+            </element>
         </band>
     </detail>
-    <columnFooter height="179" splitType="Stretch"/>
-    <pageFooter height="40" splitType="Stretch">
-        <element kind="staticText" uuid="1303cd6f-7a9e-4fa4-a46e-cdb494f4ce3e" x="120" y="10" width="320" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
+    <pageFooter height="32" splitType="Stretch">
+        <element kind="staticText" uuid="1303cd6f-7a9e-4fa4-a46e-cdb494f4ce3e" x="120" y="6" width="320" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Center" vTextAlign="Middle">
             <text><![CDATA[Sistema de Gestión de Certificación de Personas]]></text>
         </element>
     </pageFooter>
