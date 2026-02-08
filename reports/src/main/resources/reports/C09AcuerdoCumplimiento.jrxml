@@ -1,12 +1,119 @@
 <!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
-<jasperReport name="ActaEntregaCargo" language="java" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8b4c2e86-ce69-454c-955c-03cb5409dc99">
-    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
-    <parameter name="ciudad_colaborador" class="java.lang.String"/>
-    <parameter name="direccion" class="java.lang.String"/>
-    <parameter name="colaborador_nombres" class="java.lang.String"/>
-    <parameter name="colaborador_apellidos" class="java.lang.String"/>
-    <parameter name="cargo" class="java.lang.String"/>
-    <parameter name="fecha_entrega_documentos" class="java.lang.String"/>
-    <parameter name="responsable_DTH" class="java.lang.String"/>
-   
+<jasperReport name="Blank_A4_1" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dfcb51fc-90d0-4310-a874-7bed6df14236">
+    <query language="sql"><![CDATA[]]></query>
+    <background splitType="Stretch"/>
+    <title height="95" splitType="Stretch">
+        <element kind="image" uuid="c3186159-61a5-49bd-855c-24d55a1f996a" x="10" y="10" width="100" height="80" hImageAlign="Center" vImageAlign="Middle">
+            <expression><![CDATA["https://www.centrosur.gob.ec/wp-content/uploads/2021/07/Logo-CENTROSUR.jpg"]]></expression>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="5f9de167-42c1-4144-85d2-fcc2ba292eb7" x="110" y="10" width="260" height="40" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A.]]></text>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="8168240e-90b8-4a25-8cb3-c24f1aa06609" x="370" y="10" width="80" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  Código:]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="965c074c-5282-47ff-ab86-aa65044bcb5d" x="110" y="50" width="260" height="40" fontName="Arial" hTextAlign="Center" vTextAlign="Middle">
+            <text><![CDATA[ACUERDO DE CUMPLIMIENTO CON LOS LINEAMIENTOS PARA PERSONAS CERTIFICADAS]]></text>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="837b219f-4dff-41cb-9e0b-321e6b395bde" x="370" y="37" width="80" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  Fecha de revisión:]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="18f375d2-7c61-4636-893f-e53712af7e2d" x="370" y="23" width="80" height="14" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  Fecha de emisión:]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="a6f1264a-ec36-4a0b-b930-47e477e0981b" x="370" y="50" width="80" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  Versión:]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="c3af68e1-5be7-4651-8626-aacbdbae6ba5" x="370" y="77" width="80" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  File:]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="ebe77cb0-5386-41bf-87ab-0200390ae730" x="370" y="63" width="80" height="14" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  N° pág.:]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="ee48dcb7-b116-4728-a245-688ad5104de9" x="450" y="10" width="94" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  CSTH-C09]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="6a773e2c-29a7-4c01-8146-3e7611029f07" x="450" y="50" width="94" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  DCRCO-V03.1-2022]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="50463828-a129-430b-81bf-0043587fe2fc" x="450" y="77" width="94" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  C09]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="staticText" uuid="39294365-18b3-4eec-97af-477e669b42bf" x="450" y="63" width="94" height="14" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <text><![CDATA[  Página 1 de 2
+
+]]></text>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="textField" uuid="1ac1f0d8-44aa-44dc-b46b-84d450c41c3e" x="450" y="23" width="94" height="14" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <expression><![CDATA[  $P{fecha_emision}
+  ]]></expression>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+        <element kind="textField" uuid="2ce6ae04-2f1d-4608-98d7-4d6c91f045f3" x="450" y="37" width="94" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <expression><![CDATA[  $P{fecha_emision}
+  ]]></expression>
+            <box>
+                <pen lineWidth="0.5"/>
+            </box>
+        </element>
+    </title>
+    <pageHeader height="35" splitType="Stretch"/>
+    <columnHeader height="61" splitType="Stretch"/>
+    <detail>
+        <band height="125" splitType="Stretch"/>
+    </detail>
+    <columnFooter height="45" splitType="Stretch"/>
+    <pageFooter height="54" splitType="Stretch"/>
+    <summary height="42" splitType="Stretch"/>
 </jasperReport>
