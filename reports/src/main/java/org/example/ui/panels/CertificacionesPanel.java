@@ -35,6 +35,7 @@ public class CertificacionesPanel extends JPanel {
     private DatePickerField fecha_revision;
     private DatePickerField fecha_solicitud;
     private DatePickerField fecha_aceptada;
+    private DatePickerField fecha_recepcion;
     private DatePickerField fecha_ultima_revision;
     private DatePickerField fecha_entrega_documentos;
 
@@ -99,14 +100,12 @@ public class CertificacionesPanel extends JPanel {
         row++;
         addSectionSeparator(card, "FECHAS", row++, gbc);
 
-        // FECHAS - Reemplazar estas líneas
-        addSectionSeparator(card, "FECHAS", row++, gbc);
-
         fecha_entrega_documentos = addLabeledDateField(card, "Fecha", row++, gbc, false);
         fecha_emision = addLabeledDateField(card, "Fecha Emisión", row++, gbc, false);
         fecha_revision = addLabeledDateField(card, "Fecha Revisión", row++, gbc, false);
         fecha_solicitud = addLabeledDateField(card, "Fecha Solicitud", row++, gbc, false);
         fecha_aceptada = addLabeledDateField(card, "Fecha Aceptada", row++, gbc, false);
+        fecha_recepcion = addLabeledDateField(card, "Fecha Recepción", row++, gbc, false);
         fecha_ultima_revision = addLabeledDateField(card, "Fecha Ultima Revisión", row++, gbc, false);
 
         initializeDates();
@@ -121,6 +120,7 @@ public class CertificacionesPanel extends JPanel {
         fecha_revision.setDate(currentDate);
         fecha_solicitud.setDate(currentDate);
         fecha_aceptada.setDate(currentDate);
+        fecha_recepcion.setDate(currentDate);
         fecha_ultima_revision.setDate(currentDate);
     }
 
@@ -368,6 +368,7 @@ public class CertificacionesPanel extends JPanel {
         params.put("fecha_revision", fecha_revision.getDateAsString());
         params.put("fecha_solicitud", fecha_solicitud.getDateAsString());
         params.put("fecha_aceptada", fecha_aceptada.getDateAsString());
+        params.put("fecha_recepcion",fecha_recepcion.getDateAsString());
         params.put("fecha_ultima_revision", fecha_ultima_revision.getDateAsString());
         params.put("fecha_entrega_documentos", fecha_entrega_documentos.getDateAsString());
 
