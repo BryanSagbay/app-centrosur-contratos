@@ -212,7 +212,7 @@ El usuario del Certificado (persona certificada) descarga y libera al OEC EMPRES
 El OEC EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A., podrá tomar las acciones jurídicas que sean pertinentes ante cualquier mal uso y no cumplimiento con lo establecido en este acuerdo.
 ]]></text>
             </element>
-            <element kind="staticText" uuid="9c53f47a-2e00-4583-8bc0-9bc684a42c93" x="10" y="149" width="534" height="30" fontName="Aria">
+            <element kind="staticText" uuid="9c53f47a-2e00-4583-8bc0-9bc684a42c93" x="10" y="149" width="534" height="30" fontName="Arial">
                 <text><![CDATA[El presente acuerdo compromete a la persona certificada a cumplirlo durante el período de vigencia de su certificación:]]></text>
             </element>
             <element kind="staticText" uuid="320460b7-c983-4c2f-beb3-cc24604e42a1" x="20" y="180" width="20" height="20" fontName="Arial" hTextAlign="Right">
