@@ -126,13 +126,13 @@
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="textField" uuid="02263018-5bee-48cf-bd27-7b476721f518" x="125" y="26" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="textField" uuid="02263018-5bee-48cf-bd27-7b476721f518" x="126" y="26" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{cedula}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="textField" uuid="9b8f1c6f-9c3e-496a-bcf2-2d61ecf73737" x="135" y="46" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="textField" uuid="9b8f1c6f-9c3e-496a-bcf2-2d61ecf73737" x="136" y="46" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{numero_expediente}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
