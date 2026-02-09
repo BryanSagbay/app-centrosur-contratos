@@ -21,20 +21,21 @@ public class CertificacionesPanel extends JPanel {
     // Campos del colaborador
     private JTextField txtColaborador;
     private JTextField txtCedula;
-    private JTextField txtCargo;
-    private JTextField txtArea;
-    private JTextField txtFechaIngreso;
-    private JTextField txtSalario;
+    private JTextField txtNumeroExpediente;
+    private JTextField txtDireccion;
+    private JTextField txtTelefono;
+    private JTextField txtCorreo;
+    private JTextField txtEdad;
+    private JTextField txtProvincia;
+    private JTextField txtCuidad;
 
     // Campos de fecha
-    private JTextField txtDia;
-    private JTextField txtMes;
-    private JTextField txtAnio;
-    private JTextField txtFecha;
-
-    // Campos adicionales
-    private JTextField txtMotivo;
-    private JTextField txtDestino;
+    private JTextField fecha_emision;
+    private JTextField fecha_revision;
+    private JTextField fecha_solicitud;
+    private JTextField fecha_aceptada;
+    private JTextField fecha_ultima_revision;
+    private JTextField fecha_entrega_documentos;
 
     // Checkboxes de certificaciones
     private Map<String, JCheckBox> checkBoxCertificaciones;
@@ -83,89 +84,50 @@ public class CertificacionesPanel extends JPanel {
         addSectionSeparator(card, "INFORMACIÓN BÁSICA", row++, gbc);
         txtColaborador = addLabeledField(card, "Nombre Completo", row++, gbc, true);
         txtCedula = addLabeledField(card, "Cédula", row++, gbc, true);
-        txtCargo = addLabeledField(card, "Cargo", row++, gbc, true);
-        txtArea = addLabeledField(card, "Área / Departamento", row++, gbc, true);
-        txtFechaIngreso = addLabeledField(card, "Fecha de Ingreso", row++, gbc, false);
-        txtSalario = addLabeledField(card, "Salario (opcional)", row++, gbc, false);
+        txtNumeroExpediente = addLabeledField(card, "Número de Expediente", row++, gbc, true);
+        txtDireccion= addLabeledField(card, "Dirección", row++, gbc, true);
+        txtTelefono = addLabeledField(card, "Teléfono", row++, gbc, false);
+        txtCorreo = addLabeledField(card, "Correo Electrónico", row++, gbc, false);
 
         row++;
         addSectionSeparator(card, "INFORMACIÓN ADICIONAL", row++, gbc);
-        txtMotivo = addLabeledField(card, "Motivo de la Certificación", row++, gbc, false);
-        txtDestino = addLabeledField(card, "Destinatario / Entidad", row++, gbc, false);
+        txtEdad = addLabeledField(card, "Edad - Años Cumplidos", row++, gbc, false);
+        txtProvincia = addLabeledField(card, "Provincia", row++, gbc, false);
+        txtCuidad = addLabeledField(card, "Cuidad (Parroquia)", row++, gbc, false);
 
         row++;
-        addSectionSeparator(card, "FECHA DE EMISIÓN", row++, gbc);
-        addDateFields(card, row++, gbc);
-        txtFecha = addLabeledField(card, "Fecha Completa", row++, gbc, false);
-        txtFecha.setEditable(true);
-        txtFecha.setBackground(AppColors.INPUT_BG_DISABLED);
+        addSectionSeparator(card, "FECHAS", row++, gbc);
 
+        fecha_entrega_documentos = addLabeledField(card, "Fecha Completa", row++, gbc, false);
+        fecha_entrega_documentos.setEditable(true);
+        fecha_entrega_documentos.setBackground(AppColors.INPUT_BG_DISABLED);
+
+        fecha_emision = addLabeledField(card, "Fecha Emisión", row++, gbc, false);
+        fecha_emision.setEditable(true);
+        fecha_emision.setBackground(AppColors.INPUT_BG_DISABLED);
+
+        fecha_revision = addLabeledField(card, "Fecha Revisión", row++, gbc, false);
+        fecha_revision.setEditable(true);
+        fecha_revision.setBackground(AppColors.INPUT_BG_DISABLED);
+
+        fecha_solicitud = addLabeledField(card, "Fecha Solicitud", row++, gbc, false);
+        fecha_solicitud.setEditable(true);
+        fecha_solicitud.setBackground(AppColors.INPUT_BG_DISABLED);
+
+        fecha_aceptada = addLabeledField(card, "Fecha Aceptada", row++, gbc, false);
+        fecha_aceptada.setEditable(true);
+        fecha_aceptada.setBackground(AppColors.INPUT_BG_DISABLED);
+
+        fecha_ultima_revision = addLabeledField(card, "Fecha Ultima Revisión", row++, gbc, false);
+        fecha_ultima_revision.setEditable(true);
+        fecha_ultima_revision.setBackground(AppColors.INPUT_BG_DISABLED);
         initializeDates();
-        setupDateSynchronization();
 
         return card;
     }
 
-    private void addDateFields(JPanel panel, int row, GridBagConstraints gbc) {
-        JPanel fechaPanel = new JPanel(new GridLayout(1, 3, 15, 0));
-        fechaPanel.setOpaque(false);
-
-        txtDia = ComponentFactory.createDateTextField();
-        txtMes = ComponentFactory.createDateTextField();
-        txtAnio = ComponentFactory.createDateTextField();
-
-        fechaPanel.add(createLabeledPanel(txtDia, "Día"));
-        fechaPanel.add(createLabeledPanel(txtMes, "Mes"));
-        fechaPanel.add(createLabeledPanel(txtAnio, "Año"));
-
-        gbc.gridx = 0;
-        gbc.gridy = row;
-        gbc.gridwidth = 2;
-        panel.add(fechaPanel, gbc);
-        gbc.gridwidth = 1;
-    }
-
-    private JPanel createLabeledPanel(JTextField field, String labelText) {
-        JPanel panel = new JPanel(new BorderLayout(0, 6));
-        panel.setOpaque(false);
-
-        JLabel label = new JLabel(labelText);
-        label.setFont(AppStyles.FONT_SUBSECTION);
-        label.setForeground(AppColors.TEXT_SECONDARY);
-
-        panel.add(label, BorderLayout.NORTH);
-        panel.add(field, BorderLayout.CENTER);
-
-        return panel;
-    }
-
     private void initializeDates() {
-        txtDia.setText(DateUtils.getCurrentDay());
-        txtMes.setText(DateUtils.getCurrentMonth());
-        txtAnio.setText(DateUtils.getCurrentYear());
-        txtFecha.setText(DateUtils.formatCurrentFullDate());
-    }
-
-    private void setupDateSynchronization() {
-        javax.swing.event.DocumentListener listener = new javax.swing.event.DocumentListener() {
-            public void insertUpdate(javax.swing.event.DocumentEvent e) { updateFullDate(); }
-            public void removeUpdate(javax.swing.event.DocumentEvent e) { updateFullDate(); }
-            public void changedUpdate(javax.swing.event.DocumentEvent e) { updateFullDate(); }
-
-            private void updateFullDate() {
-                String dia = txtDia.getText().trim();
-                String mes = txtMes.getText().trim();
-                String anio = txtAnio.getText().trim();
-
-                if (!dia.isEmpty() && !mes.isEmpty() && !anio.isEmpty()) {
-                    txtFecha.setText(DateUtils.formatFullDate(dia, mes, anio));
-                }
-            }
-        };
-
-        txtDia.getDocument().addDocumentListener(listener);
-        txtMes.getDocument().addDocumentListener(listener);
-        txtAnio.getDocument().addDocumentListener(listener);
+        fecha_entrega_documentos.setText(DateUtils.formatCurrentFullDate());
     }
 
     private JPanel createCertificationsCard() {
@@ -350,11 +312,12 @@ public class CertificacionesPanel extends JPanel {
     private boolean validateRequiredFields() {
         if (!ValidationUtils.isNotEmpty(txtColaborador) ||
                 !ValidationUtils.isNotEmpty(txtCedula) ||
-                !ValidationUtils.isNotEmpty(txtCargo) ||
-                !ValidationUtils.isNotEmpty(txtArea) ||
-                !ValidationUtils.isNotEmpty(txtDia) ||
-                !ValidationUtils.isNotEmpty(txtMes) ||
-                !ValidationUtils.isNotEmpty(txtAnio)) {
+                !ValidationUtils.isNotEmpty(txtDireccion) ||
+                !ValidationUtils.isNotEmpty(txtTelefono) ||
+                !ValidationUtils.isNotEmpty(txtCorreo) ||
+                !ValidationUtils.isNotEmpty(txtEdad) ||
+                !ValidationUtils.isNotEmpty(txtProvincia) ||
+                !ValidationUtils.isNotEmpty(txtCuidad)) {
 
             showMessage(
                     "Por favor complete todos los campos obligatorios marcados con *",
@@ -380,16 +343,19 @@ public class CertificacionesPanel extends JPanel {
         Map<String, Object> params = new HashMap<>();
         params.put("colaborador", txtColaborador.getText().trim());
         params.put("cedula", txtCedula.getText().trim());
-        params.put("cargo", txtCargo.getText().trim());
-        params.put("area_departamento", txtArea.getText().trim());
-        params.put("fecha_ingreso", txtFechaIngreso.getText().trim());
-        params.put("salario", txtSalario.getText().trim());
-        params.put("dia", txtDia.getText().trim());
-        params.put("mes", txtMes.getText().trim());
-        params.put("anio", txtAnio.getText().trim());
-        params.put("fecha_emision", txtFecha.getText());
-        params.put("motivo", txtMotivo.getText().trim());
-        params.put("destinatario", txtDestino.getText().trim());
+        params.put("numero_expediente", txtNumeroExpediente.getText().trim());
+        params.put("direccion", txtDireccion.getText().trim());
+        params.put("telefono", txtTelefono.getText().trim());
+        params.put("correo", txtCorreo.getText().trim());
+        params.put("edad", txtEdad.getText().trim());
+        params.put("provincia", txtProvincia.getText().trim());
+        params.put("cuidad", txtCuidad.getText().trim());
+        params.put("fecha_emision", fecha_emision.getText());
+        params.put("fecha_revision", fecha_revision.getText().trim());
+        params.put("fecha_solicitud", fecha_solicitud.getText().trim());
+        params.put("fecha_aceptada", fecha_aceptada.getText());
+        params.put("fecha_ultima_revision", fecha_ultima_revision.getText().trim());
+        params.put("fecha_entrega_documentos", fecha_entrega_documentos.getText().trim());
         return params;
     }
 
