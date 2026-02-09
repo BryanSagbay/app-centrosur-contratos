@@ -12,7 +12,6 @@
     <parameter name="fecha_solicitud" class="java.lang.String"/>
     <parameter name="fecha_aceptada" class="java.lang.String"/>
     <parameter name="fecha_ultima_revision" class="java.lang.String"/>
-    <parameter name="revisado_por" class="java.lang.String"/>
     <query language="sql"><![CDATA[]]></query>
     <background splitType="Stretch"/>
     <title height="95" splitType="Stretch">
@@ -107,15 +106,13 @@
             </box>
         </element>
         <element kind="textField" uuid="1ac1f0d8-44aa-44dc-b46b-84d450c41c3e" x="450" y="23" width="94" height="14" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-            <expression><![CDATA[  $P{fecha_emision}
-  ]]></expression>
+            <expression><![CDATA["  "+$P{fecha_emision}]]></expression>
             <box>
                 <pen lineWidth="0.5"/>
             </box>
         </element>
         <element kind="textField" uuid="2ce6ae04-2f1d-4608-98d7-4d6c91f045f3" x="450" y="37" width="94" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-            <expression><![CDATA[  $P{fecha_emision}
-  ]]></expression>
+            <expression><![CDATA["  "+$P{fecha_emision}]]></expression>
             <box>
                 <pen lineWidth="0.5"/>
             </box>
@@ -123,31 +120,31 @@
     </title>
     <detail>
         <band height="675" splitType="Stretch">
-            <element kind="textField" uuid="3ede28e0-78c1-4d25-84b8-8e2e9b1e9573" x="121" y="6" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="textField" uuid="3ede28e0-78c1-4d25-84b8-8e2e9b1e9573" x="113" y="6" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{colaborador}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="textField" uuid="02263018-5bee-48cf-bd27-7b476721f518" x="131" y="26" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="textField" uuid="02263018-5bee-48cf-bd27-7b476721f518" x="125" y="26" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{cedula}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="textField" uuid="9b8f1c6f-9c3e-496a-bcf2-2d61ecf73737" x="141" y="46" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="textField" uuid="9b8f1c6f-9c3e-496a-bcf2-2d61ecf73737" x="135" y="46" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{numero_expediente}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="textField" uuid="1e16859f-b802-4ad8-8268-5ce203251464" x="151" y="66" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="textField" uuid="1e16859f-b802-4ad8-8268-5ce203251464" x="144" y="66" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{fecha_solicitud}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="textField" uuid="3f00dfc9-febb-4033-a095-c06d7efff737" x="151" y="86" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="textField" uuid="3f00dfc9-febb-4033-a095-c06d7efff737" x="149" y="86" width="374" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
                 <expression><![CDATA[$P{fecha_aceptada}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
