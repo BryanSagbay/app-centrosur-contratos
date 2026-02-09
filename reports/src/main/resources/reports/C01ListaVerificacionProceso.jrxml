@@ -790,7 +790,7 @@
                 </box>
             </element>
             <element kind="textField" uuid="eaf7c139-ead4-437e-b8c1-8468e665ff56" x="10" y="610" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
-                <expression><![CDATA["ULTIMA FECHA DE VERIFICACIÓN:"+$P{fecha_ultima_revision}]]></expression>
+                <expression><![CDATA["ULTIMA FECHA DE VERIFICACIÓN:  "+$P{fecha_ultima_revision}]]></expression>
             </element>
             <element kind="textField" uuid="2f8f9ce0-6d4e-4aa9-9003-0f63612a57bf" x="10" y="624" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
                 <expression><![CDATA["EXPEDIENTE REVISADO POR: Analista de certificación y control"]]></expression>
