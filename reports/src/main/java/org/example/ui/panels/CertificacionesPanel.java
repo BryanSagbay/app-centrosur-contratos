@@ -4,6 +4,7 @@ import org.example.styles.AppColors;
 import org.example.styles.AppStyles;
 import org.example.service.ReporteService;
 import org.example.ui.components.ComponentFactory;
+import org.example.utils.DatePickerField;
 import org.example.utils.DateUtils;
 import org.example.utils.ValidationUtils;
 
@@ -30,12 +31,12 @@ public class CertificacionesPanel extends JPanel {
     private JTextField txtCuidad;
 
     // Campos de fecha
-    private JTextField fecha_emision;
-    private JTextField fecha_revision;
-    private JTextField fecha_solicitud;
-    private JTextField fecha_aceptada;
-    private JTextField fecha_ultima_revision;
-    private JTextField fecha_entrega_documentos;
+    private DatePickerField fecha_emision;
+    private DatePickerField fecha_revision;
+    private DatePickerField fecha_solicitud;
+    private DatePickerField fecha_aceptada;
+    private DatePickerField fecha_ultima_revision;
+    private DatePickerField fecha_entrega_documentos;
 
     // Checkboxes de certificaciones
     private Map<String, JCheckBox> checkBoxCertificaciones;
@@ -98,36 +99,29 @@ public class CertificacionesPanel extends JPanel {
         row++;
         addSectionSeparator(card, "FECHAS", row++, gbc);
 
-        fecha_entrega_documentos = addLabeledField(card, "Fecha Completa", row++, gbc, false);
-        fecha_entrega_documentos.setEditable(true);
-        fecha_entrega_documentos.setBackground(AppColors.INPUT_BG_DISABLED);
+        // FECHAS - Reemplazar estas líneas
+        addSectionSeparator(card, "FECHAS", row++, gbc);
 
-        fecha_emision = addLabeledField(card, "Fecha Emisión", row++, gbc, false);
-        fecha_emision.setEditable(true);
-        fecha_emision.setBackground(AppColors.INPUT_BG_DISABLED);
+        fecha_entrega_documentos = addLabeledDateField(card, "Fecha", row++, gbc, false);
+        fecha_emision = addLabeledDateField(card, "Fecha Emisión", row++, gbc, false);
+        fecha_revision = addLabeledDateField(card, "Fecha Revisión", row++, gbc, false);
+        fecha_solicitud = addLabeledDateField(card, "Fecha Solicitud", row++, gbc, false);
+        fecha_aceptada = addLabeledDateField(card, "Fecha Aceptada", row++, gbc, false);
+        fecha_ultima_revision = addLabeledDateField(card, "Fecha Ultima Revisión", row++, gbc, false);
 
-        fecha_revision = addLabeledField(card, "Fecha Revisión", row++, gbc, false);
-        fecha_revision.setEditable(true);
-        fecha_revision.setBackground(AppColors.INPUT_BG_DISABLED);
-
-        fecha_solicitud = addLabeledField(card, "Fecha Solicitud", row++, gbc, false);
-        fecha_solicitud.setEditable(true);
-        fecha_solicitud.setBackground(AppColors.INPUT_BG_DISABLED);
-
-        fecha_aceptada = addLabeledField(card, "Fecha Aceptada", row++, gbc, false);
-        fecha_aceptada.setEditable(true);
-        fecha_aceptada.setBackground(AppColors.INPUT_BG_DISABLED);
-
-        fecha_ultima_revision = addLabeledField(card, "Fecha Ultima Revisión", row++, gbc, false);
-        fecha_ultima_revision.setEditable(true);
-        fecha_ultima_revision.setBackground(AppColors.INPUT_BG_DISABLED);
         initializeDates();
 
         return card;
     }
 
     private void initializeDates() {
-        fecha_entrega_documentos.setText(DateUtils.formatCurrentFullDate());
+        java.util.Date currentDate = new java.util.Date();
+        fecha_entrega_documentos.setDate(currentDate);
+        fecha_emision.setDate(currentDate);
+        fecha_revision.setDate(currentDate);
+        fecha_solicitud.setDate(currentDate);
+        fecha_aceptada.setDate(currentDate);
+        fecha_ultima_revision.setDate(currentDate);
     }
 
     private JPanel createCertificationsCard() {
@@ -258,8 +252,7 @@ public class CertificacionesPanel extends JPanel {
         gbc.gridwidth = 1;
     }
 
-    private JTextField addLabeledField(JPanel panel, String labelText, int row,
-                                       GridBagConstraints gbc, boolean required) {
+    private JTextField addLabeledField(JPanel panel, String labelText, int row, GridBagConstraints gbc, boolean required) {
         JLabel label = new JLabel(labelText + (required ? " *" : ""));
         label.setFont(AppStyles.FONT_LABEL);
         label.setForeground(AppColors.TEXT_PRIMARY);
@@ -271,12 +264,30 @@ public class CertificacionesPanel extends JPanel {
         panel.add(label, gbc);
 
         JTextField textField = ComponentFactory.createModernTextField();
-
         gbc.gridx = 1;
         gbc.weightx = 0.6;
         panel.add(textField, gbc);
 
         return textField;
+    }
+
+    private DatePickerField addLabeledDateField(JPanel panel, String labelText, int row, GridBagConstraints gbc, boolean required) {
+        JLabel label = new JLabel(labelText + (required ? " *" : ""));
+        label.setFont(AppStyles.FONT_LABEL);
+        label.setForeground(AppColors.TEXT_PRIMARY);
+
+        gbc.gridx = 0;
+        gbc.gridy = row;
+        gbc.gridwidth = 1;
+        gbc.weightx = 0.4;
+        panel.add(label, gbc);
+
+        DatePickerField dateField = ComponentFactory.createDatePickerField();
+        gbc.gridx = 1;
+        gbc.weightx = 0.6;
+        panel.add(dateField, gbc);
+
+        return dateField;
     }
 
     private void generateCertifications() {
@@ -341,6 +352,7 @@ public class CertificacionesPanel extends JPanel {
 
     private Map<String, Object> buildParameters() {
         Map<String, Object> params = new HashMap<>();
+
         params.put("colaborador", txtColaborador.getText().trim());
         params.put("cedula", txtCedula.getText().trim());
         params.put("numero_expediente", txtNumeroExpediente.getText().trim());
@@ -350,12 +362,15 @@ public class CertificacionesPanel extends JPanel {
         params.put("edad", txtEdad.getText().trim());
         params.put("provincia", txtProvincia.getText().trim());
         params.put("cuidad", txtCuidad.getText().trim());
-        params.put("fecha_emision", fecha_emision.getText());
-        params.put("fecha_revision", fecha_revision.getText().trim());
-        params.put("fecha_solicitud", fecha_solicitud.getText().trim());
-        params.put("fecha_aceptada", fecha_aceptada.getText());
-        params.put("fecha_ultima_revision", fecha_ultima_revision.getText().trim());
-        params.put("fecha_entrega_documentos", fecha_entrega_documentos.getText().trim());
+
+        // Obtener fechas como String en formato DD-MM-YYYY
+        params.put("fecha_emision", fecha_emision.getDateAsString());
+        params.put("fecha_revision", fecha_revision.getDateAsString());
+        params.put("fecha_solicitud", fecha_solicitud.getDateAsString());
+        params.put("fecha_aceptada", fecha_aceptada.getDateAsString());
+        params.put("fecha_ultima_revision", fecha_ultima_revision.getDateAsString());
+        params.put("fecha_entrega_documentos", fecha_entrega_documentos.getDateAsString());
+
         return params;
     }
 
