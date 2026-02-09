@@ -23,8 +23,10 @@ public class CertificacionesPanel extends JPanel {
     private JTextField txtColaborador;
     private JTextField txtCedula;
     private JTextField txtNumeroExpediente;
+    private JTextField txtNumeroFormulario;
     private JTextField txtDireccion;
     private JTextField txtTelefono;
+    private JTextField txtCelular;
     private JTextField txtCorreo;
     private JTextField txtEdad;
     private JTextField txtProvincia;
@@ -87,8 +89,10 @@ public class CertificacionesPanel extends JPanel {
         txtColaborador = addLabeledField(card, "Nombre Completo", row++, gbc, true);
         txtCedula = addLabeledField(card, "Cédula", row++, gbc, true);
         txtNumeroExpediente = addLabeledField(card, "Número de Expediente", row++, gbc, true);
+        txtNumeroFormulario = addLabeledField(card, "Número de Formulario", row++, gbc, true);
         txtDireccion= addLabeledField(card, "Dirección", row++, gbc, true);
         txtTelefono = addLabeledField(card, "Teléfono", row++, gbc, false);
+        txtCelular = addLabeledField(card, "Celular", row++, gbc, false);
         txtCorreo = addLabeledField(card, "Correo Electrónico", row++, gbc, false);
 
         row++;
@@ -328,6 +332,9 @@ public class CertificacionesPanel extends JPanel {
                 !ValidationUtils.isNotEmpty(txtCorreo) ||
                 !ValidationUtils.isNotEmpty(txtEdad) ||
                 !ValidationUtils.isNotEmpty(txtProvincia) ||
+                !ValidationUtils.isNotEmpty(txtCelular) ||
+                !ValidationUtils.isNotEmpty(txtNumeroFormulario) ||
+                !ValidationUtils.isNotEmpty(txtNumeroExpediente) ||
                 !ValidationUtils.isNotEmpty(txtCuidad)) {
 
             showMessage(
@@ -356,8 +363,10 @@ public class CertificacionesPanel extends JPanel {
         params.put("colaborador", txtColaborador.getText().trim());
         params.put("cedula", txtCedula.getText().trim());
         params.put("numero_expediente", txtNumeroExpediente.getText().trim());
+        params.put("numero_formulario", txtNumeroFormulario.getText().trim());
         params.put("direccion", txtDireccion.getText().trim());
         params.put("telefono", txtTelefono.getText().trim());
+        params.put("celular", txtCelular.getText().trim());
         params.put("correo", txtCorreo.getText().trim());
         params.put("edad", txtEdad.getText().trim());
         params.put("provincia", txtProvincia.getText().trim());
