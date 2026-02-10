@@ -102,14 +102,14 @@
             </box>
         </element>
         <element kind="textField" uuid="c73ed671-ac77-4d1c-88b7-ff837f09fcd4" x="450" y="18" width="94" height="14" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-            <expression><![CDATA[  $P{fecha_emision}
+            <expression><![CDATA["  "+$P{fecha_emision}
   ]]></expression>
             <box>
                 <pen lineWidth="0.5"/>
             </box>
         </element>
         <element kind="textField" uuid="8400c3a2-53aa-4002-9624-1c85b2b8a7ae" x="450" y="32" width="94" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-            <expression><![CDATA[  $P{fecha_revision}
+            <expression><![CDATA["  "+$P{fecha_revision}
   ]]></expression>
             <box>
                 <pen lineWidth="0.5"/>
@@ -1159,14 +1159,14 @@ Firma del candidato de acuerdo a cédula de identidad]]></text>
             </box>
         </element>
         <element kind="textField" uuid="68523993-2f5d-466a-99ed-2d36be8ecdc8" x="450" y="23" width="94" height="14" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-            <expression><![CDATA[  $P{fecha_emision}
+            <expression><![CDATA["  "+$P{fecha_emision}
   ]]></expression>
             <box>
                 <pen lineWidth="0.5"/>
             </box>
         </element>
         <element kind="textField" uuid="273852e1-1de7-4d13-9b9c-81dea575e7f7" x="450" y="37" width="94" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-            <expression><![CDATA[  $P{fecha_revision}
+            <expression><![CDATA["  "+$P{fecha_revision}
   ]]></expression>
             <box>
                 <pen lineWidth="0.5"/>

@@ -124,31 +124,31 @@
     <detail>
         <band height="675" splitType="Stretch">
             <element kind="textField" uuid="3ede28e0-78c1-4d25-84b8-8e2e9b1e9573" x="109" y="6" width="384" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <expression><![CDATA["  "+$P{colaborador}]]></expression>
+                <expression><![CDATA[" "+$P{colaborador}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
             <element kind="textField" uuid="02263018-5bee-48cf-bd27-7b476721f518" x="124" y="26" width="380" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <expression><![CDATA["  "+$P{cedula}]]></expression>
+                <expression><![CDATA[" "+$P{cedula}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
             <element kind="textField" uuid="9b8f1c6f-9c3e-496a-bcf2-2d61ecf73737" x="134" y="46" width="380" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <expression><![CDATA["  "+$P{numero_expediente}]]></expression>
+                <expression><![CDATA[" "+$P{numero_expediente}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
             <element kind="textField" uuid="1e16859f-b802-4ad8-8268-5ce203251464" x="140" y="66" width="384" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <expression><![CDATA["  "+$P{fecha_solicitud}]]></expression>
+                <expression><![CDATA[" "+$P{fecha_solicitud}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
             <element kind="textField" uuid="3f00dfc9-febb-4033-a095-c06d7efff737" x="147" y="86" width="377" height="20" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
-                <expression><![CDATA["  "+$P{fecha_aceptada}]]></expression>
+                <expression><![CDATA[" "+$P{fecha_aceptada}]]></expression>
                 <box>
                     <pen lineWidth="0.0"/>
                 </box>
@@ -794,7 +794,7 @@
                 </box>
             </element>
             <element kind="textField" uuid="eaf7c139-ead4-437e-b8c1-8468e665ff56" x="10" y="610" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
-                <expression><![CDATA["ULTIMA FECHA DE VERIFICACIÓN:"+$P{fecha_ultima_revision}]]></expression>
+                <expression><![CDATA["ULTIMA FECHA DE VERIFICACIÓN: "+$P{fecha_ultima_revision}]]></expression>
             </element>
             <element kind="textField" uuid="2f8f9ce0-6d4e-4aa9-9003-0f63612a57bf" x="10" y="624" width="320" height="14" fontName="Arial" fontSize="9.0" vTextAlign="Middle">
                 <expression><![CDATA["EXPEDIENTE REVISADO POR: Analista de certificación y control"]]></expression>
