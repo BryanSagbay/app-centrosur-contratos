@@ -251,138 +251,137 @@
             <element kind="staticText" uuid="08013ac9-770f-46cb-8cf9-08da00ef6bca" mode="Opaque" x="9" y="190" width="534" height="11" backcolor="#A7B7E2" fontName="Arial" fontSize="8.0" vTextAlign="Middle">
                 <text><![CDATA[  1.2. Indique el lugar dónde desea ser examinado]]></text>
             </element>
-            <element kind="staticText" uuid="a31eb524-20d7-489a-9970-eb7615462d50" x="10" y="130" width="170" height="29" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="a31eb524-20d7-489a-9970-eb7615462d50" mode="Opaque" x="10" y="130" width="170" height="30" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[PERFIL DE CUALIFICACIÓN PROFESIONAL]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="9fd8bcf1-ecef-41a5-b16a-0675296356d7" x="10" y="159" width="170" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="9fd8bcf1-ecef-41a5-b16a-0675296356d7" x="10" y="160" width="170" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="31f6a383-5b27-452a-b93a-f0381cd9f94a" x="10" y="169" width="170" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="31f6a383-5b27-452a-b93a-f0381cd9f94a" x="10" y="170" width="170" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="f826d7ce-ccf7-4b14-a13c-3ef6ebaedbcb" x="180" y="130" width="172" height="29" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="f826d7ce-ccf7-4b14-a13c-3ef6ebaedbcb" mode="Opaque" x="180" y="130" width="172" height="30" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[ESQUEMA DE CERTIFICACIÓN]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="09adc7b3-fae9-4c25-b564-20746c8b1524" x="180" y="159" width="172" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="09adc7b3-fae9-4c25-b564-20746c8b1524" x="180" y="160" width="172" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="2dbcfcf6-4e19-4745-b1e2-63219e59a2db" x="180" y="169" width="172" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="2dbcfcf6-4e19-4745-b1e2-63219e59a2db" x="180" y="170" width="172" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="f3bed81f-cdb5-48e9-aca1-ed899be36df2" x="352" y="130" width="190" height="29" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="f3bed81f-cdb5-48e9-aca1-ed899be36df2" mode="Opaque" x="352" y="130" width="190" height="20" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Unidades de Competencia
-*marque con una X las UC correspondientes al
-Esquema]]></text>
+*marque con una X las UC correspondientes al Esquema]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="3ecfe311-ccae-4b69-a3e1-815c331a10d2" x="352" y="159" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="3ecfe311-ccae-4b69-a3e1-815c331a10d2" x="352" y="160" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="67c2b8f8-4da9-498c-b437-432394d8759e" x="352" y="169" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="67c2b8f8-4da9-498c-b437-432394d8759e" x="352" y="170" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="ee2506ef-d1a8-4990-be16-dfb5b7897d32" x="390" y="169" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="ee2506ef-d1a8-4990-be16-dfb5b7897d32" x="390" y="170" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="436be5d7-ba14-4e18-8385-22469b48634b" x="390" y="159" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="436be5d7-ba14-4e18-8385-22469b48634b" x="390" y="160" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="a1c68c0b-652c-49ba-8cf6-49866c7cb19f" x="428" y="169" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="a1c68c0b-652c-49ba-8cf6-49866c7cb19f" x="428" y="170" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="b4115efd-ddea-42f9-8c88-e2b19e691fef" x="428" y="159" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="b4115efd-ddea-42f9-8c88-e2b19e691fef" x="428" y="160" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="52f3af96-e067-4f9f-83d2-a0b4172435bd" x="466" y="169" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="52f3af96-e067-4f9f-83d2-a0b4172435bd" x="466" y="170" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="0b3479a9-3550-48de-a719-0537d9cece8a" x="466" y="159" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="0b3479a9-3550-48de-a719-0537d9cece8a" x="466" y="160" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="c34c1c8c-30ca-4b57-82b8-e279b5ab3058" x="504" y="169" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="c34c1c8c-30ca-4b57-82b8-e279b5ab3058" x="504" y="170" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="5546bf23-e6be-4b8a-8fdf-d65c3dae9e31" x="504" y="159" width="38" height="10" fontName="Arial" fontSize="8.0">
+            <element kind="staticText" uuid="5546bf23-e6be-4b8a-8fdf-d65c3dae9e31" x="504" y="160" width="38" height="10" fontName="Arial" fontSize="8.0">
                 <text><![CDATA[]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="8468d882-739a-4cc9-a283-16d9ba60d7d7" x="9" y="201" width="172" height="10" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+            <element kind="staticText" uuid="8468d882-739a-4cc9-a283-16d9ba60d7d7" mode="Opaque" x="9" y="201" width="172" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
                 <text><![CDATA[  Instalaciones del OEC - instalaciones externas:]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="0c2e84b1-4641-4fc4-aeea-84b26c7ddb4c" x="9" y="211" width="172" height="10" fontName="Arial" fontSize="8.0" hTextAlign="Left">
+            <element kind="staticText" uuid="0c2e84b1-4641-4fc4-aeea-84b26c7ddb4c" mode="Opaque" x="9" y="211" width="172" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="8.0" hTextAlign="Left">
                 <text><![CDATA[  Dirección:]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="9bd8da80-817e-4794-9bdc-b81101d85362" x="9" y="221" width="172" height="10" fontName="Arial" fontSize="8.0" hTextAlign="Left">
+            <element kind="staticText" uuid="9bd8da80-817e-4794-9bdc-b81101d85362" mode="Opaque" x="9" y="221" width="172" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="8.0" hTextAlign="Left">
                 <text><![CDATA[  Sector:]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -409,7 +408,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="a75b50f1-78e5-4aef-99da-c3e1e9894689" x="9" y="231" width="172" height="10" fontName="Arial" fontSize="8.0" hTextAlign="Left">
+            <element kind="staticText" uuid="a75b50f1-78e5-4aef-99da-c3e1e9894689" mode="Opaque" x="9" y="231" width="172" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="8.0" hTextAlign="Left">
                 <text><![CDATA[  Teléfono:]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -434,7 +433,7 @@ Esquema]]></text>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="be32052d-a7bf-418c-9ab1-db12bae4a8d8" x="10" y="290" width="110" height="20" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="be32052d-a7bf-418c-9ab1-db12bae4a8d8" mode="Opaque" x="10" y="290" width="110" height="20" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[NIVEL DE EDUCACIÓN]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
@@ -455,7 +454,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="eaa3f41c-933d-45d9-ab3e-ba94e43078ae" x="120" y="290" width="422" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="eaa3f41c-933d-45d9-ab3e-ba94e43078ae" mode="Opaque" x="120" y="290" width="422" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[ESQUEMA DE CERTIFICACIÓN]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
@@ -475,13 +474,13 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="11e699af-1db2-4f18-b720-5f6c0544ed49" x="120" y="300" width="210" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="11e699af-1db2-4f18-b720-5f6c0544ed49" mode="Opaque" x="120" y="300" width="210" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Nombre Institución]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="434eeb51-ab00-4d08-8a6c-36eae1690c12" x="330" y="300" width="50" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="434eeb51-ab00-4d08-8a6c-36eae1690c12" mode="Opaque" x="330" y="300" width="50" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[País]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -502,7 +501,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="963e0272-8058-4e80-a2ec-378a7998c9dd" x="380" y="300" width="48" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="963e0272-8058-4e80-a2ec-378a7998c9dd" mode="Opaque" x="380" y="300" width="48" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Ciudad]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -516,7 +515,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="48350748-2fc8-47a3-902b-a673b3989f9d" x="428" y="300" width="114" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="48350748-2fc8-47a3-902b-a673b3989f9d" mode="Opaque" x="428" y="300" width="114" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Título Obtenido]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -691,13 +690,13 @@ Esquema]]></text>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="1aaddb5e-b3a5-41dc-94bb-91d09bdfbdb8" x="10" y="404" width="230" height="20" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="1aaddb5e-b3a5-41dc-94bb-91d09bdfbdb8" mode="Opaque" x="10" y="404" width="230" height="20" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Nombre del curso]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="d3986f30-9e2c-48b0-ab3e-01e892b86679" x="240" y="404" width="130" height="20" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="d3986f30-9e2c-48b0-ab3e-01e892b86679" mode="Opaque" x="240" y="404" width="130" height="20" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Nombre de la institución que impartió el curso]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -711,7 +710,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="908444d0-f139-4dfe-b6c0-65248f05309e" x="370" y="404" width="80" height="20" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="908444d0-f139-4dfe-b6c0-65248f05309e" mode="Opaque" x="370" y="404" width="80" height="20" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Fechas del curso]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -725,7 +724,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="1a6ab303-690a-4faa-84cd-f54cab2c8753" x="450" y="404" width="92" height="20" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="1a6ab303-690a-4faa-84cd-f54cab2c8753" mode="Opaque" x="450" y="404" width="92" height="20" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Horas del Curso]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -865,34 +864,34 @@ Esquema]]></text>
                     <pen lineWidth="0.0"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="6b27bfbe-e5a1-4e45-bfee-3bf1110dbcda" x="10" y="495" width="170" height="15" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="6b27bfbe-e5a1-4e45-bfee-3bf1110dbcda" mode="Opaque" x="10" y="495" width="170" height="15" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Fecha ingreso al trabajo]]></text>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="a95358ad-fb40-4cb8-b653-7edb2fa013f8" x="180" y="495" width="190" height="15" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="a95358ad-fb40-4cb8-b653-7edb2fa013f8" mode="Opaque" x="180" y="495" width="190" height="15" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Datos de la Empresa]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="a95578b3-d00f-4d3d-a38d-6ef2323f8a6e" x="10" y="510" width="85" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="a95578b3-d00f-4d3d-a38d-6ef2323f8a6e" mode="Opaque" x="10" y="510" width="85" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Desde]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="a09d4e30-733d-4c8d-a7ec-950586fceea2" x="370" y="495" width="172" height="25" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="a09d4e30-733d-4c8d-a7ec-950586fceea2" mode="Opaque" x="370" y="495" width="172" height="25" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Funciones que desempeñó]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="47218397-2c7a-4130-b927-edd7912db4de" x="95" y="510" width="85" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="47218397-2c7a-4130-b927-edd7912db4de" mode="Opaque" x="95" y="510" width="85" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Hasta]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -941,7 +940,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="73df0fcd-3971-492a-8ea9-b44513ca7f4a" x="180" y="510" width="70" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="73df0fcd-3971-492a-8ea9-b44513ca7f4a" mode="Opaque" x="180" y="510" width="70" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Nombre]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -969,7 +968,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="043e9d24-1b6c-48bc-af22-187609c15171" x="250" y="510" width="70" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="043e9d24-1b6c-48bc-af22-187609c15171" mode="Opaque" x="250" y="510" width="70" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Dirección]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -997,7 +996,7 @@ Esquema]]></text>
                     <pen lineWidth="0.5"/>
                 </box>
             </element>
-            <element kind="staticText" uuid="aed491b7-cba7-4b02-9980-fa0d036c52f9" x="320" y="510" width="50" height="10" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+            <element kind="staticText" uuid="aed491b7-cba7-4b02-9980-fa0d036c52f9" mode="Opaque" x="320" y="510" width="50" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
                 <text><![CDATA[Teléfono]]></text>
                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 <box>
@@ -1047,6 +1046,41 @@ Esquema]]></text>
                 </box>
             </element>
             <element kind="break" uuid="3946d1ae-3a4e-4bee-acfb-212bb6d7b931" x="0" y="569" width="100" height="1"/>
+            <element kind="staticText" uuid="70691544-0642-40ea-b292-ab2e538c60d4" mode="Opaque" x="352" y="150" width="38" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[UC1]]></text>
+                <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="47cf0d59-0c5a-44d6-992a-95a6030d6d95" mode="Opaque" x="390" y="150" width="38" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[UC2]]></text>
+                <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="31e4b74c-7768-4e87-ba9a-4f91b5b546d6" mode="Opaque" x="428" y="150" width="38" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[UC3]]></text>
+                <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="68dcd6c3-aa3e-4fe5-a390-585271e7d089" mode="Opaque" x="466" y="150" width="38" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[UC4]]></text>
+                <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
+            <element kind="staticText" uuid="780002e7-101a-4ff9-8c9a-48139270ff21" mode="Opaque" x="504" y="150" width="38" height="10" backcolor="#E7E7E7" fontName="Arial" fontSize="7.0" hTextAlign="Center" vTextAlign="Middle">
+                <text><![CDATA[UC5]]></text>
+                <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                </box>
+            </element>
         </band>
     </detail>
     <summary height="318" splitType="Stretch">
