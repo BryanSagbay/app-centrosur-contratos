@@ -26,7 +26,510 @@
             <box>
                 <pen lineWidth="0.5"/>
             </box>
-        </element>
+        </element><?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+              name="laboral"
+              pageWidth="612"
+              pageHeight="792"
+              columnWidth="552"
+              leftMargin="30"
+              rightMargin="30"
+              topMargin="20"
+              bottomMargin="20"
+              uuid="a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d">
+    
+    <!-- Parámetros del formulario -->
+    <parameter name="fecha_emision" class="java.lang.String"/>
+    <parameter name="fecha_revision" class="java.lang.String"/>
+    <parameter name="numero_paginas" class="java.lang.String"/>
+    <parameter name="numero_formulario" class="java.lang.String"/>
+    <parameter name="fecha_recepcion" class="java.lang.String"/>
+    <parameter name="colaborador" class="java.lang.String"/>
+    <parameter name="cedula" class="java.lang.String"/>
+    <parameter name="correo" class="java.lang.String"/>
+    <parameter name="edad" class="java.lang.String"/>
+    <parameter name="provincia" class="java.lang.String"/>
+    <parameter name="cuidad" class="java.lang.String"/>
+    <parameter name="direccion" class="java.lang.String"/>
+    <parameter name="telefono" class="java.lang.String"/>
+    <parameter name="celular" class="java.lang.String"/>
+    
+    <!-- Encabezado de página -->
+    <pageHeader>
+        <band height="150">
+            <!-- Título principal -->
+            <textField>
+                <reportElement x="0" y="0" width="552" height="20" uuid="title-1"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA["EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A."]]></textFieldExpression>
+            </textField>
+            
+            <!-- Información del código y fechas (lado derecho) -->
+            <staticText>
+                <reportElement x="400" y="0" width="80" height="15" uuid="label-codigo"/>
+                <textElement textAlignment="Right">
+                    <font size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Código:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="480" y="0" width="72" height="15" uuid="value-codigo"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="8"/>
+                </textElement>
+                <text><![CDATA[CSTH-C02]]></text>
+            </staticText>
+            
+            <staticText>
+                <reportElement x="400" y="15" width="80" height="15" uuid="label-fecha-emision"/>
+                <textElement textAlignment="Right">
+                    <font size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Fecha de emisión:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="480" y="15" width="72" height="15" uuid="value-fecha-emision" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="8"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{fecha_emision}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement x="400" y="30" width="80" height="15" uuid="label-fecha-revision"/>
+                <textElement textAlignment="Right">
+                    <font size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Fecha de revisión:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="480" y="30" width="72" height="15" uuid="value-fecha-revision" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="8"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{fecha_revision}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Título del documento -->
+            <textField>
+                <reportElement x="0" y="50" width="552" height="20" uuid="title-2"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="11" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA["SOLICITUD PARA LA CERTIFICACIÓN DE PERSONAS"]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement x="400" y="50" width="80" height="15" uuid="label-version"/>
+                <textElement textAlignment="Right">
+                    <font size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Versión:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="480" y="50" width="72" height="15" uuid="value-version"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="8"/>
+                </textElement>
+                <text><![CDATA[DCRCO-V03.1-2022]]></text>
+            </staticText>
+            
+            <staticText>
+                <reportElement x="400" y="65" width="80" height="15" uuid="label-paginas"/>
+                <textElement textAlignment="Right">
+                    <font size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[N° pág:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="480" y="65" width="72" height="15" uuid="value-paginas" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="8"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{numero_paginas}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement x="400" y="80" width="80" height="15" uuid="label-file"/>
+                <textElement textAlignment="Right">
+                    <font size="8" isBold="true"/>
+                </textElement>
+                <text><![CDATA[File:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="480" y="80" width="72" height="15" uuid="value-file"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="8"/>
+                </textElement>
+                <text><![CDATA[C02]]></text>
+            </staticText>
+            
+            <!-- Número de formulario y fecha de recepción -->
+            <staticText>
+                <reportElement x="0" y="110" width="80" height="15" uuid="label-formulario"/>
+                <textElement textAlignment="Left">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Formulario Nº]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="80" y="110" width="100" height="15" uuid="value-formulario" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{numero_formulario}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement x="320" y="110" width="120" height="15" uuid="label-fecha-recepcion"/>
+                <textElement textAlignment="Right">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Fecha de recepción:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="440" y="110" width="112" height="15" uuid="value-fecha-recepcion" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{fecha_recepcion}]]></textFieldExpression>
+            </textField>
+        </band>
+    </pageHeader>
+    
+    <!-- Detalle del documento -->
+    <detail>
+        <band height="350">
+            <!-- Sección: DATOS PERSONALES DEL CANDIDATO -->
+            <textField>
+                <reportElement x="0" y="10" width="552" height="20" uuid="section-1" backcolor="#D3D3D3"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="10" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA["DATOS PERSONALES DEL CANDIDATO"]]></textFieldExpression>
+            </textField>
+            
+            <!-- Nombres y Apellidos -->
+            <staticText>
+                <reportElement x="0" y="40" width="150" height="15" uuid="label-colaborador"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Nombres y Apellidos:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="150" y="40" width="402" height="15" uuid="value-colaborador" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{colaborador}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Cédula o pasaporte -->
+            <staticText>
+                <reportElement x="0" y="65" width="150" height="15" uuid="label-cedula"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Cédula o pasaporte:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="150" y="65" width="402" height="15" uuid="value-cedula" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{cedula}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Correo electrónico -->
+            <staticText>
+                <reportElement x="0" y="90" width="150" height="15" uuid="label-correo"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Correo electrónico:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="150" y="90" width="402" height="15" uuid="value-correo" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{correo}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Edad -->
+            <staticText>
+                <reportElement x="0" y="115" width="150" height="15" uuid="label-edad"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Edad - años cumplidos]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="150" y="115" width="402" height="15" uuid="value-edad" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{edad}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Sección: DATOS DE DOMICILIO DEL CANDIDATO -->
+            <textField>
+                <reportElement x="0" y="150" width="552" height="20" uuid="section-2" backcolor="#D3D3D3"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="10" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA["DATOS DE DOMICILIO DEL CANDIDATO"]]></textFieldExpression>
+            </textField>
+            
+            <!-- Provincia -->
+            <staticText>
+                <reportElement x="0" y="180" width="150" height="15" uuid="label-provincia"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Provincia:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="150" y="180" width="402" height="15" uuid="value-provincia" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{provincia}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Ciudad -->
+            <staticText>
+                <reportElement x="0" y="205" width="150" height="15" uuid="label-ciudad"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Ciudad (Parroquia):]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="150" y="205" width="402" height="15" uuid="value-ciudad" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{cuidad}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Dirección -->
+            <staticText>
+                <reportElement x="0" y="230" width="150" height="15" uuid="label-direccion"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Dirección:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="150" y="230" width="402" height="15" uuid="value-direccion" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{direccion}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Teléfono y Celular -->
+            <staticText>
+                <reportElement x="0" y="255" width="150" height="15" uuid="label-telefono"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Teléfono:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="150" y="255" width="150" height="15" uuid="value-telefono" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{telefono}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement x="320" y="255" width="80" height="15" uuid="label-celular"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Celular:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="400" y="255" width="152" height="15" uuid="value-celular" backcolor="#FFFF00"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{celular}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Sección adicional -->
+            <textField>
+                <reportElement x="0" y="290" width="552" height="30" uuid="section-3"/>
+                <box>
+                    <pen lineWidth="0.5"/>
+                    <topPen lineWidth="0.5"/>
+                    <leftPen lineWidth="0.5"/>
+                    <bottomPen lineWidth="0.5"/>
+                    <rightPen lineWidth="0.5"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA["1. Seleccione el Esquema del Perfil de Competencia y Unidades de Competencia para los que desea aplicar:"]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+    
+    <!-- Pie de página -->
+    <pageFooter>
+        <band height="30">
+            <textField>
+                <reportElement x="0" y="10" width="552" height="15" uuid="footer"/>
+                <textElement textAlignment="Center">
+                    <font size="8"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Página " + $V{PAGE_NUMBER}]]></textFieldExpression>
+            </textField>
+        </band>
+    </pageFooter>
+</jasperReport>
+        
         <element kind="staticText" uuid="8168240e-90b8-4a25-8cb3-c24f1aa06609" x="370" y="10" width="80" height="13" fontName="Arial" fontSize="9.0" hTextAlign="Left" vTextAlign="Middle">
             <text><![CDATA[  Código:]]></text>
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
