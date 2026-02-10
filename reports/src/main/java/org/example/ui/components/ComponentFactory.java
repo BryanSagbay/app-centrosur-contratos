@@ -2,6 +2,8 @@ package org.example.ui.components;
 
 import org.example.styles.AppColors;
 import org.example.styles.AppStyles;
+import org.example.utils.DatePickerField;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -153,6 +155,13 @@ public class ComponentFactory {
         button.setFocusPainted(false);
 
         return button;
+    }
+
+    /**
+     * Crea un campo de fecha con calendario
+     */
+    public static DatePickerField createDatePickerField() {
+        return new DatePickerField();
     }
 
     /**
