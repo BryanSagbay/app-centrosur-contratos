@@ -101,13 +101,13 @@ public class CertificacionesPanel extends JPanel {
         txtCorreo = addLabeledField(card, "Correo Electrónico", row++, gbc, false);
 
         row++;
-        addSectionSeparator(card, "INFORMACIÓN ADICIONAL", row++, gbc);
+        addSectionSeparator(card, "INFORMACIÓN ADICIONAL", additionalIcon, row++, gbc);
         txtEdad = addLabeledField(card, "Edad - Años Cumplidos", row++, gbc, false);
         txtProvincia = addLabeledField(card, "Provincia", row++, gbc, false);
         txtCuidad = addLabeledField(card, "Cuidad (Parroquia)", row++, gbc, false);
 
         row++;
-        addSectionSeparator(card, "FECHAS", row++, gbc);
+        addSectionSeparator(card, "FECHAS", datesIcon, row++, gbc);
 
         fecha_entrega_documentos = addLabeledDateField(card, "Fecha", row++, gbc, false);
         fecha_emision = addLabeledDateField(card, "Fecha Emisión", row++, gbc, false);
@@ -134,9 +134,12 @@ public class CertificacionesPanel extends JPanel {
     }
 
     private JPanel createCertificationsCard() {
-        JPanel card = ComponentFactory.createCardPanel("Tipo de Certificación");
-        card.setLayout(new BoxLayout(card, BoxLayout.Y_AXIS));
 
+        JPanel card = ComponentFactory.createCardPanel("Tipo de Certificación");
+        Icon certIcon = loadIcon("icons/certificate.png", 22, 22);
+
+        card.setLayout(new BoxLayout(card, BoxLayout.Y_AXIS));
+        
         checkBoxCertificaciones = new LinkedHashMap<>();
 
         String[] certificaciones = {
