@@ -13,6 +13,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.util.*;
 import java.util.List;
+import java.net.URL;
 
 /**
  * Panel para gestión de certificaciones
