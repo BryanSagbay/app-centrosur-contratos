@@ -233,15 +233,18 @@ public class CertificacionesPanel extends JPanel {
         return panel;
     }
 
-    private void addSectionSeparator(JPanel panel, String text, int row, GridBagConstraints gbc) {
+    private void addSectionSeparator(JPanel panel, String text, Icon icon,
+                                     int row, GridBagConstraints gbc) {
+
         JPanel separatorPanel = new JPanel(new BorderLayout(15, 0));
         separatorPanel.setOpaque(false);
         separatorPanel.setBorder(new EmptyBorder(20, 0, 15, 0));
 
-        JLabel label = new JLabel(text);
+        JLabel label = new JLabel(text, icon, JLabel.LEFT);
         label.setFont(AppStyles.FONT_SUBSECTION);
         label.setForeground(AppColors.PRIMARY_COLOR);
-        label.setPreferredSize(new Dimension(280, 20));
+        label.setHorizontalTextPosition(SwingConstants.RIGHT);
+        label.setIconTextGap(10);
 
         JSeparator separator = new JSeparator();
         separator.setForeground(AppColors.BORDER_COLOR);
