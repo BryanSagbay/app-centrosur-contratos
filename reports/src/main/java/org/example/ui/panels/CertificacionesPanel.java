@@ -391,4 +391,18 @@ public class CertificacionesPanel extends JPanel {
         UIManager.put("OptionPane.messageForeground", AppColors.TEXT_PRIMARY);
         JOptionPane.showMessageDialog(this, message, title, type);
     }
+
+    private Icon loadIcon(String path, int width, int height) {
+        URL url = getClass().getClassLoader().getResource(path);
+        if (url == null) {
+            throw new IllegalStateException("No se encontró el recurso: " + path);
+        }
+
+        ImageIcon originalIcon = new ImageIcon(url);
+        Image scaledImage = originalIcon.getImage()
+                .getScaledInstance(width, height, Image.SCALE_SMOOTH);
+
+        return new ImageIcon(scaledImage);
+    }
+
 }
