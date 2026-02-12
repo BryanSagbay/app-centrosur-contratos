@@ -76,9 +76,9 @@ public class CertificacionesPanel extends JPanel {
     }
 
     private JPanel createEmployeeDataCard() {
-        Icon basicIcon = loadIcon("icons/user.png", 20, 20);
-        Icon additionalIcon = loadIcon("icons/info.png", 20, 20);
-        Icon datesIcon = loadIcon("icons/calendar.png", 20, 20);
+        Icon basicIcon = loadIcon("icons/data.png", 20, 20);
+        Icon additionalIcon = loadIcon("icons/datamore.png", 20, 20);
+        Icon datesIcon = loadIcon("icons/date.png", 20, 20);
 
         JPanel card = ComponentFactory.createCardPanel("Datos del Colaborador");
         card.setLayout(new GridBagLayout());
@@ -136,10 +136,8 @@ public class CertificacionesPanel extends JPanel {
     private JPanel createCertificationsCard() {
 
         JPanel card = ComponentFactory.createCardPanel("Tipo de Certificación");
-        Icon certIcon = loadIcon("icons/certificate.png", 22, 22);
+        Icon certIcon = loadIcon("icons/certificado.png", 22, 22);
 
-        card.setLayout(new BoxLayout(card, BoxLayout.Y_AXIS));
-        
         checkBoxCertificaciones = new LinkedHashMap<>();
 
         String[] certificaciones = {
