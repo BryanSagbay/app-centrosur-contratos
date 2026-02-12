@@ -76,6 +76,10 @@ public class CertificacionesPanel extends JPanel {
     }
 
     private JPanel createEmployeeDataCard() {
+        Icon basicIcon = loadIcon("icons/user.png", 20, 20);
+        Icon additionalIcon = loadIcon("icons/info.png", 20, 20);
+        Icon datesIcon = loadIcon("icons/calendar.png", 20, 20);
+
         JPanel card = ComponentFactory.createCardPanel("Datos del Colaborador");
         card.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -86,7 +90,7 @@ public class CertificacionesPanel extends JPanel {
         int row = 1;
 
         // Información básica
-        addSectionSeparator(card, "INFORMACIÓN BÁSICA", row++, gbc);
+        addSectionSeparator(card, "INFORMACIÓN BÁSICA", basicIcon, row++, gbc);
         txtColaborador = addLabeledField(card, "Nombre Completo", row++, gbc, true);
         txtCedula = addLabeledField(card, "Cédula", row++, gbc, true);
         txtNumeroExpediente = addLabeledField(card, "Número de Expediente", row++, gbc, true);
