@@ -12,7 +12,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.util.*;
 import java.util.List;
-
+import java.net.URL;
 /**
  * Panel para gestión de documentos de contratación
  */
@@ -86,7 +86,27 @@ public class ContratosPanel extends JPanel {
         add(createFooter(), BorderLayout.SOUTH);
     }
 
+    private Icon loadIcon(String path, int width, int height) {
+        URL url = getClass().getClassLoader().getResource(path);
+        if (url == null) {
+            throw new IllegalStateException("No se encontró el recurso: " + path);
+        }
+
+        ImageIcon originalIcon = new ImageIcon(url);
+        Image scaledImage = originalIcon.getImage()
+                .getScaledInstance(width, height, Image.SCALE_SMOOTH);
+
+        return new ImageIcon(scaledImage);
+    }
+
+
     private JPanel createPersonalDataCard() {
+
+        Icon personalIcon = loadIcon("icons/data.png", 20, 20);
+        Icon laboralIcon = loadIcon("icons/laboral.png", 20, 20);
+        Icon vistosIcon = loadIcon("icons/doble-verificacion.png", 20, 20);
+        Icon fechaIcon = loadIcon("icons/calendario.png", 20, 20);
+
         JPanel card = ComponentFactory.createCardPanel("Información del Colaborador");
         card.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -97,7 +117,7 @@ public class ContratosPanel extends JPanel {
         int row = 1;
 
         // Datos personales
-        addSectionSeparator(card, "DATOS PERSONALES", row++, gbc);
+        addSectionSeparator(card, "DATOS PERSONALES", personalIcon, row++, gbc);
         txtColaborador = addLabeledField(card, "Nombre Completo", row++, gbc, true);
         txtNombres = addLabeledField(card, "Nombres", row++, gbc, true);
         txtApellidos = addLabeledField(card, "Apellidos", row++, gbc, true);
@@ -106,7 +126,7 @@ public class ContratosPanel extends JPanel {
         txtCiudad = addLabeledField(card, "Ciudad", row++, gbc, true);
 
         row++;
-        addSectionSeparator(card, "INFORMACIÓN LABORAL", row++, gbc);
+        addSectionSeparator(card, "INFORMACIÓN LABORAL", laboralIcon, row++, gbc);
         txtCargo = addLabeledField(card, "Cargo", row++, gbc, true);
         txtArea = addLabeledField(card, "Área / Departamento", row++, gbc, true);
         txtLugarTrabajo = addLabeledField(card, "Lugar de Trabajo", row++, gbc, true);
@@ -115,7 +135,7 @@ public class ContratosPanel extends JPanel {
         txtResponsableDTH = addLabeledField(card, "Responsable DTH", row++, gbc, true);
 
         row++;
-        addSectionSeparator(card, "VISTOS BUENOS / ÁREAS RESPONSABLES", row++, gbc);
+        addSectionSeparator(card, "VISTOS BUENOS / ÁREAS RESPONSABLES", vistosIcon, row++, gbc);
         txtAnalistaTH = addLabeledField(card, "Analista de Talento Humano", row++, gbc, false);
         txtTrabajadoraSocial = addLabeledField(card, "Trabajador/a Social", row++, gbc, false);
         txtRemuneraciones = addLabeledField(card, "Analista de Remuneraciones", row++, gbc, false);
@@ -129,7 +149,7 @@ public class ContratosPanel extends JPanel {
         txtDistribucion = addLabeledField(card, "Superintendente de Reparaciones", row++, gbc, false);
 
         row++;
-        addSectionSeparator(card, "FECHA DEL DOCUMENTO", row++, gbc);
+        addSectionSeparator(card, "FECHA DEL DOCUMENTO", fechaIcon, row++, gbc);
         addDateFields(card, row++, gbc);
         txtFecha = addLabeledField(card, "Fecha Completa", row++, gbc, false);
         txtFecha.setEditable(true);
@@ -204,8 +224,21 @@ public class ContratosPanel extends JPanel {
     }
 
     private JPanel createReportsCard() {
+        Icon docsIcon = loadIcon("icons/cabecera.png", 22, 22);
         JPanel card = ComponentFactory.createCardPanel("Selección de Documentos");
         card.setLayout(new BoxLayout(card, BoxLayout.Y_AXIS));
+
+        Component header = card.getComponent(0);
+        if (header instanceof JPanel headerPanel) {
+            for (Component comp : headerPanel.getComponents()) {
+                if (comp instanceof JLabel label) {
+                    label.setIcon(docsIcon);
+                    label.setHorizontalTextPosition(SwingConstants.RIGHT);
+                    label.setIconTextGap(10);
+                    label.setHorizontalAlignment(SwingConstants.LEFT);
+                }
+            }
+        }
 
         checkBoxReportes = new LinkedHashMap<>();
 
@@ -285,15 +318,18 @@ public class ContratosPanel extends JPanel {
         return panel;
     }
 
-    private void addSectionSeparator(JPanel panel, String text, int row, GridBagConstraints gbc) {
+    private void addSectionSeparator(JPanel panel, String text, Icon icon,
+                                     int row, GridBagConstraints gbc) {
+
         JPanel separatorPanel = new JPanel(new BorderLayout(15, 0));
         separatorPanel.setOpaque(false);
         separatorPanel.setBorder(new EmptyBorder(20, 0, 15, 0));
 
-        JLabel label = new JLabel(text);
+        JLabel label = new JLabel(text, icon, JLabel.LEFT);
         label.setFont(AppStyles.FONT_SUBSECTION);
         label.setForeground(AppColors.PRIMARY_COLOR);
-        label.setPreferredSize(new Dimension(280, 20));
+        label.setHorizontalTextPosition(SwingConstants.RIGHT);
+        label.setIconTextGap(10);
 
         JSeparator separator = new JSeparator();
         separator.setForeground(AppColors.BORDER_COLOR);
