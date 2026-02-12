@@ -183,7 +183,8 @@ public class CertificacionesPanel extends JPanel {
         notePanel.setBorder(new EmptyBorder(10, 25, 20, 25));
         notePanel.setBackground(new Color(239, 246, 255));
 
-        JLabel iconLabel = new JLabel("ℹ");
+        Icon infoIcon = loadIcon("icons/informacion.png", 18, 18);
+        JLabel iconLabel = new JLabel(infoIcon);
         iconLabel.setFont(new Font(AppStyles.FONT_FAMILY, Font.BOLD, 18));
         iconLabel.setForeground(AppColors.PRIMARY_COLOR);
 
